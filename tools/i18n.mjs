@@ -31,6 +31,11 @@ const expand = flat => {
   return out;
 };
 
+/** Compendium titles (from module.json) keyed by their localization key. */
+function packTitles() {
+  return new Map(manifest().packs.map(p => [`PASION.packs.${p.name}`, p.label]));
+}
+
 /** Sheet-config strings keyed by their localization key. */
 function configStrings() {
   const strings = new Map();
@@ -47,18 +52,18 @@ function configStrings() {
 function extract() {
   const file = langFile(BASE_LANG);
   const existing = fs.existsSync(file) ? flatten(readJson(file)) : [];
-  const hand = existing.filter(([k]) => !k.startsWith("PASION.cfg."));
+  const hand = existing.filter(([k]) => !k.startsWith("PASION.cfg.") && !k.startsWith("PASION.packs."));
+  const packs = [...packTitles()];
   const cfg = [...configStrings()];
-  writeJson(file, expand([...hand, ...cfg]));
-  console.log(`lang/${BASE_LANG}.json: ${hand.length} UI strings, ${cfg.length} sheet-config strings`);
+  writeJson(file, expand([...hand, ...packs, ...cfg]));
+  console.log(`lang/${BASE_LANG}.json: ${hand.length} UI strings, ${packs.length} compendium titles, ${cfg.length} sheet-config strings`);
 }
 
 // ----------------------------------------------------------------- translations
 
-function packTemplate(pack, label) {
+function packTemplate(pack) {
   const { docs, folders } = loadPack(pack);
   return {
-    label,
     ...(pack.type === "JournalEntry" ? {} : { mapping: ITEM_MAPPING }),
     folders: Object.fromEntries(folders.map(f => [f.name, f.name])),
     entries: Object.fromEntries(docs.map(d => [d._id, baseEntry(pack, d)])),
@@ -87,12 +92,10 @@ function sync(lang) {
 
   // translations/<code>/<module>.<pack>.json
   for (const pack of packs()) {
-    const label = manifest().packs.find(p => p.name === pack.name).label;
-    const template = packTemplate(pack, label);
+    const template = packTemplate(pack);
     const tf = translationFile(lang, pack);
     const old = fs.existsSync(tf) ? readJson(tf) : {};
     writeJson(tf, {
-      label: old.label ?? template.label,
       ...(template.mapping ? { mapping: template.mapping } : {}),
       folders: fill(template.folders, old.folders),
       entries: Object.fromEntries(
@@ -121,7 +124,7 @@ function check(langs) {
 
   // lang/en.json must match the sheet config
   const enFlat = new Map(flatten(readJson(langFile(BASE_LANG))));
-  for (const [k, v] of configStrings()) {
+  for (const [k, v] of [...packTitles(), ...configStrings()]) {
     if (enFlat.get(k) !== v) err(`lang/${BASE_LANG}.json is out of date (${k}); run npm run lang:extract`);
   }
 
