@@ -3,7 +3,7 @@
   "name": "Efraim Sánchez",
   "type": "npc",
   "_id": "ZGDCl7KpJLZZlGbt",
-  "img": "modules/pasion-de-las-pasiones/images/acteurs/Efraim%20Sanchez.webp",
+  "img": "modules/pasion-de-las-pasiones/images/actors/efraim-sanchez.webp",
   "system": {
     "stats": {},
     "attributes": {
@@ -38,7 +38,7 @@
     "width": 1,
     "height": 1,
     "texture": {
-      "src": "modules/pasion-de-las-pasiones/images/acteurs/Efraim%20Sanchez_token.webp",
+      "src": "modules/pasion-de-las-pasiones/images/actors/efraim-sanchez-token.webp",
       "anchorX": 0.5,
       "anchorY": 0.5,
       "offsetX": 0,

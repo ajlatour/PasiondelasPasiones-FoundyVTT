@@ -3,7 +3,7 @@
   "name": "Alma Lacasa",
   "type": "npc",
   "_id": "ngnjpLvErMPsI2Uc",
-  "img": "modules/pasion-de-las-pasiones/images/acteurs/Alma%20Lacasa.webp",
+  "img": "modules/pasion-de-las-pasiones/images/actors/alma-lacasa.webp",
   "system": {
     "stats": {},
     "attributes": {
@@ -38,7 +38,7 @@
     "width": 1,
     "height": 1,
     "texture": {
-      "src": "modules/pasion-de-las-pasiones/images/acteurs/Alma%20Lacasa_token.webp",
+      "src": "modules/pasion-de-las-pasiones/images/actors/alma-lacasa-token.webp",
       "anchorX": 0.5,
       "anchorY": 0.5,
       "offsetX": 0,

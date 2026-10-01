@@ -3,7 +3,7 @@
   "name": "Horacio Cabello",
   "type": "npc",
   "_id": "dFvqNqI2jKGGcwpL",
-  "img": "modules/pasion-de-las-pasiones/images/acteurs/Horacio%20Cabello.webp",
+  "img": "modules/pasion-de-las-pasiones/images/actors/horacio-cabello.webp",
   "system": {
     "stats": {},
     "attributes": {
@@ -38,7 +38,7 @@
     "width": 1,
     "height": 1,
     "texture": {
-      "src": "modules/pasion-de-las-pasiones/images/acteurs/Horacio%20Cabello_token.webp",
+      "src": "modules/pasion-de-las-pasiones/images/actors/horacio-cabello-token.webp",
       "anchorX": 0.5,
       "anchorY": 0.5,
       "offsetX": 0,

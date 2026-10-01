@@ -3,7 +3,7 @@
   "name": "Cruz Villar",
   "type": "npc",
   "_id": "ZQIivv9rmyOLWTPE",
-  "img": "modules/pasion-de-las-pasiones/images/acteurs/Cruz%20Villar.webp",
+  "img": "modules/pasion-de-las-pasiones/images/actors/cruz-villar.webp",
   "system": {
     "stats": {},
     "attributes": {
@@ -38,7 +38,7 @@
     "width": 1,
     "height": 1,
     "texture": {
-      "src": "modules/pasion-de-las-pasiones/images/acteurs/Cruz%20Villar_token.webp",
+      "src": "modules/pasion-de-las-pasiones/images/actors/cruz-villar-token.webp",
       "anchorX": 0.5,
       "anchorY": 0.5,
       "offsetX": 0,
