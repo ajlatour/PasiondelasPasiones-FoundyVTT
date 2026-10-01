@@ -3,7 +3,7 @@
   "name": "Ale Montaña",
   "type": "npc",
   "_id": "dAqxe0rszcbvzla3",
-  "img": "modules/pasion-de-las-pasiones/images/acteurs/Ale%20Monta%C3%B1a.webp",
+  "img": "modules/pasion-de-las-pasiones/images/actors/ale-montana.webp",
   "system": {
     "stats": {},
     "attributes": {
@@ -38,7 +38,7 @@
     "width": 1,
     "height": 1,
     "texture": {
-      "src": "modules/pasion-de-las-pasiones/images/acteurs/Ale%20Monta%C3%B1a_token.webp",
+      "src": "modules/pasion-de-las-pasiones/images/actors/ale-montana-token.webp",
       "anchorX": 0.5,
       "anchorY": 0.5,
       "offsetX": 0,

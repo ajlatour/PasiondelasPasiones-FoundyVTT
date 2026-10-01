@@ -3,7 +3,7 @@
   "name": "Nacio Ibarra",
   "type": "npc",
   "_id": "WnXUxlFdGy6J38Qy",
-  "img": "modules/pasion-de-las-pasiones/images/acteurs/Nacio%20Ibarra.webp",
+  "img": "modules/pasion-de-las-pasiones/images/actors/nacio-ibarra.webp",
   "system": {
     "stats": {},
     "attributes": {
@@ -38,7 +38,7 @@
     "width": 1,
     "height": 1,
     "texture": {
-      "src": "modules/pasion-de-las-pasiones/images/acteurs/Nacio%20Ibarra_token.webp",
+      "src": "modules/pasion-de-las-pasiones/images/actors/nacio-ibarra-token.webp",
       "anchorX": 0.5,
       "anchorY": 0.5,
       "offsetX": 0,
