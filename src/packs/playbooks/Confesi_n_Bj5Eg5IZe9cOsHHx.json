@@ -1,0 +1,52 @@
+{
+  "folder": "j6u8dydivTeQx7Gy",
+  "name": "Confesión",
+  "type": "move",
+  "img": "modules/pasion-de-las-pasiones/images/icons/empleada.webp",
+  "system": {
+    "description": "<p>When you tell someone of your wrongdoings, roll with the questions: </p><ul><li><p>Do you view the other as pure of heart? </p></li><li><p>Do you invoke religion or family?</p></li></ul>",
+    "moveType": "playbook",
+    "rollFormula": "",
+    "moveResults": {
+      "success": {
+        "key": "system.moveResults.success.value",
+        "label": "10+",
+        "value": "<p>You feel your soul lightened; clear a <em>condition.</em></p>"
+      },
+      "partial": {
+        "key": "system.moveResults.partial.value",
+        "label": "7-9",
+        "value": "<p>You feel your soul lightened; clear a <em>condition</em>. </p><p>The person you're speaking to chooses: either you give them enough detail that they can later prove your wrongdoings, or they can immediately clear a <em>condition.</em></p>"
+      },
+      "failure": {
+        "key": "system.moveResults.failure.value",
+        "label": "Miss",
+        "value": "<p>Your confession unfortunately falls on the wrong ears.</p>"
+      }
+    },
+    "uses": 0,
+    "rollType": "prompt",
+    "rollMod": 0,
+    "actorType": "character",
+    "choices": ""
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pbta",
+    "systemVersion": "1.1.13",
+    "createdTime": 1739015917075,
+    "modifiedTime": 1739046992773,
+    "lastModifiedBy": "NCcxUpA1X43TucQV"
+  },
+  "_id": "Bj5Eg5IZe9cOsHHx",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "NCcxUpA1X43TucQV": 3
+  },
+  "_key": "!items!Bj5Eg5IZe9cOsHHx"
+}

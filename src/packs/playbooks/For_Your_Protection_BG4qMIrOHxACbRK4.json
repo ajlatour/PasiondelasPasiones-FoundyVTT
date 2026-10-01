@@ -1,0 +1,52 @@
+{
+  "folder": "b97nUX588nVGMjL4",
+  "name": "For Your Protection",
+  "type": "move",
+  "img": "modules/pasion-de-las-pasiones/images/icons/caballero.webp",
+  "system": {
+    "description": "<p>When you offer your protection to someone and they accept, hold 1. You may spend that hold to appear in a scene with them at any time or move to exactly where you need to be to protect them before anyone can interfere.</p>",
+    "moveType": "playbook",
+    "rollFormula": "",
+    "moveResults": {
+      "success": {
+        "key": "system.moveResults.success.value",
+        "label": "10+",
+        "value": ""
+      },
+      "partial": {
+        "key": "system.moveResults.partial.value",
+        "label": "7-9",
+        "value": ""
+      },
+      "failure": {
+        "key": "system.moveResults.failure.value",
+        "label": "Miss",
+        "value": ""
+      }
+    },
+    "uses": 0,
+    "rollType": "",
+    "rollMod": 0,
+    "actorType": "character",
+    "choices": ""
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pbta",
+    "systemVersion": "1.1.13",
+    "createdTime": 1739015917075,
+    "modifiedTime": 1739045569462,
+    "lastModifiedBy": "NCcxUpA1X43TucQV"
+  },
+  "_id": "BG4qMIrOHxACbRK4",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "NCcxUpA1X43TucQV": 3
+  },
+  "_key": "!items!BG4qMIrOHxACbRK4"
+}

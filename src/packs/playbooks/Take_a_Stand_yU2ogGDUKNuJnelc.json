@@ -1,0 +1,52 @@
+{
+  "folder": "b97nUX588nVGMjL4",
+  "name": "Take a Stand",
+  "type": "move",
+  "img": "modules/pasion-de-las-pasiones/images/icons/caballero.webp",
+  "system": {
+    "description": "<p>When you step in to defend someone, roll with the questions:</p><ul><li>Are you trying to impress them?</li><li>Is the law being broken?</li></ul>",
+    "moveType": "playbook",
+    "rollFormula": "",
+    "moveResults": {
+      "success": {
+        "key": "system.moveResults.success.value",
+        "label": "10+",
+        "value": "<p>Hold 3. While you stand in their defense, you may spend hold one-for-one to:</p><ul><li>Protect them from an attack; take the hit instead of them.</li><li>Keep someone from leaving a room unless they go through you. </li><li><p>Take +1 on your next roll to @UUID[Compendium.pasion-de-las-pasiones.moves.Item.C9GvWd6IY5KcAgSI]{strike out} against someone who threatens harm.</p></li></ul>"
+      },
+      "partial": {
+        "key": "system.moveResults.partial.value",
+        "label": "7-9",
+        "value": "<p>Hold 1. While you stand in their defense, you may spend hold one-for-one to:</p><ul><li>Protect them from an attack; take the hit instead of them.</li><li>Keep someone from leaving a room unless they go through you. </li><li><p>Take +1 on your next roll to @UUID[Compendium.pasion-de-las-pasiones.moves.Item.C9GvWd6IY5KcAgSI]{strike out} against someone who threatens harm.</p></li></ul>"
+      },
+      "failure": {
+        "key": "system.moveResults.failure.value",
+        "label": "Miss",
+        "value": "<p>You are too predictable and find yourself at the aggressor's mercy. They can make you mark a condition or make the person you were protecting mark a <em>condition</em>.</p>"
+      }
+    },
+    "uses": 0,
+    "rollType": "prompt",
+    "rollMod": 0,
+    "actorType": "character",
+    "choices": ""
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pbta",
+    "systemVersion": "1.1.13",
+    "createdTime": 1739015917075,
+    "modifiedTime": 1739045576374,
+    "lastModifiedBy": "NCcxUpA1X43TucQV"
+  },
+  "_id": "yU2ogGDUKNuJnelc",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "NCcxUpA1X43TucQV": 3
+  },
+  "_key": "!items!yU2ogGDUKNuJnelc"
+}

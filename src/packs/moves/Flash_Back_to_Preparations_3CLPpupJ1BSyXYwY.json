@@ -1,0 +1,52 @@
+{
+  "folder": "Er4C3XwCU6OlpeOT",
+  "name": "Flash Back to Preparations",
+  "type": "move",
+  "img": "modules/pasion-de-las-pasiones/images/icons/flashback.webp",
+  "system": {
+    "description": "<p>When you flash back to a time you made preparations, answer the following questions, and roll the dice.</p><ul><li><p>Did you have plenty of time to do it?</p></li><li><p>Did you have someone looking out for trouble?</p></li></ul>",
+    "moveType": "secondaires",
+    "rollFormula": "",
+    "moveResults": {
+      "success": {
+        "key": "system.moveResults.success.value",
+        "label": "10+",
+        "value": "<p>Choose one option from the following list. Mark a <em>condition</em>, or the MC will tell you how your plotting is flawed or got you caught up in another problem.</p><ul><li><p>You have fabricated a piece of evidence; tell us what it is.</p></li><li><p>You arranged for somebody to be in the right place at the right time.</p></li><li><p>You stowed away something hidden.</p></li></ul>"
+      },
+      "partial": {
+        "key": "system.moveResults.partial.value",
+        "label": "7-9",
+        "value": "<p>Choose one option from the following list.</p><ul><li><p>You have fabricated a piece of evidence; tell us what it is.</p></li><li><p>You arranged for somebody to be in the right place at the right time.</p></li><li><p>You stowed away something hidden.</p></li></ul>"
+      },
+      "failure": {
+        "key": "system.moveResults.failure.value",
+        "label": "Miss",
+        "value": "<p>Choose one option from the following list anyway, but the MC says who was lurking in the background and what they did to interfere before the flashback ends.</p><ul><li><p>You have fabricated a piece of evidence; tell us what it is.</p></li><li><p>You arranged for somebody to be in the right place at the right time.</p></li><li><p>You stowed away something hidden.</p></li></ul>"
+      }
+    },
+    "uses": 0,
+    "rollType": "prompt",
+    "rollMod": 0,
+    "actorType": "character",
+    "choices": ""
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pbta",
+    "systemVersion": "1.1.13",
+    "createdTime": 1739015924733,
+    "modifiedTime": 1739017450441,
+    "lastModifiedBy": "NCcxUpA1X43TucQV"
+  },
+  "_id": "3CLPpupJ1BSyXYwY",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "NCcxUpA1X43TucQV": 3
+  },
+  "_key": "!items!3CLPpupJ1BSyXYwY"
+}

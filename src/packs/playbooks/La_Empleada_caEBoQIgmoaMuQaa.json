@@ -1,0 +1,198 @@
+{
+  "name": "La Empleada",
+  "type": "playbook",
+  "_id": "caEBoQIgmoaMuQaa",
+  "img": "modules/pasion-de-las-pasiones/images/icons/empleada.webp",
+  "system": {
+    "description": "<p>The naive hard-working innocent. Heartfelt, downtrodden, and loving. Searching for a better life in all things, love especially.</p><h2>Name</h2><p><span class=\"fontstyle0\">Choose a name from one of these lists, or make up your own:</span></p><ul><li><p><span class=\"fontstyle0\">Aurora, Beatriz, Juana, María, Reina</span></p></li><li><p><span class=\"fontstyle0\">Gabriel, Juan, Luis, Rubin, Sergio</span></p></li></ul><h2>Look</h2><p>Choose at least one option from each list:</p><ul><li><p><span class=\"fontstyle0\">Messy hair, pulled back hair, unassuming hair, braided hair</span></p></li><li><p><span class=\"fontstyle0\">Beautiful eyes, demure eyes, intelligent eyes, wide eyes.</span></p></li><li><p><span class=\"fontstyle0\">Casual clothes, concealing clothes, professional clothes, work clothes.</span></p></li></ul><h2>Your Question</h2><ul><li><p><span class=\"fontstyle0\">Are you in over your head?</span></p></li></ul><h2>Relationships</h2><ul><li><p><span class=\"fontstyle0\">__________ looms large in your life as your employer.</span></p></li><li><p><span class=\"fontstyle0\">__________ was the first person who was nice to you despite your humble beginnings.</span></p></li></ul><h2>Conditions</h2><ul><li><p><span class=\"fontstyle0\">Hopeless: +1 to @UUID[Compendium.pasion-de-las-pasiones.moves.Item.iev5oXkeRFpO0Mgi]{spot something out of place}, -2 to @UUID[Compendium.pasion-de-las-pasiones.moves.Item.bJci1vpORz3rIoW4]{accuse someone of lying}.</span></p></li><li><p><span class=\"fontstyle0\">Lovelorn: +1 to </span><span class=\"fontstyle2\">@UUID[Compendium.pasion-de-las-pasiones.moves.Item.w4NFPGL4Kx8TtRfn]{express your love}</span><span class=\"fontstyle0\">, -2 to </span><span class=\"fontstyle2\">@UUID[Compendium.pasion-de-las-pasiones.moves.Item.ZG3GSRjBqIiTmB0Z]{act with desperation}</span><span class=\"fontstyle0\">.</span></p></li><li><p><span class=\"fontstyle0\">Cagey: +1 to </span><span class=\"fontstyle2\">@UUID[Compendium.pasion-de-las-pasiones.moves.Item.3EdfFL5zzGRV5Oxt]{manipulate a superior}</span><span class=\"fontstyle0\">, -2 to </span><span class=\"fontstyle2\">@UUID[Compendium.pasion-de-las-pasiones.moves.Item.TcWPAx8tGRie1Sb6]{demand what you deserve}</span><span class=\"fontstyle0\">.</span></p></li><li><p><span class=\"fontstyle0\">Introspective: +1 to </span><span class=\"fontstyle2\">@UUID[Compendium.pasion-de-las-pasiones.moves.Item.wQO9aJp5sChjcoUG]{process your feelings out loud}</span><span class=\"fontstyle0\">, -2 to </span><span class=\"fontstyle2\">@UUID[Compendium.pasion-de-las-pasiones.moves.Item.C9GvWd6IY5KcAgSI]{strike out}</span><span class=\"fontstyle0\">.</span></p></li></ul><h2>Meltdown</h2><p><span class=\"fontstyle0\">All of this deception and plotting is simply too much for your pure heart. You seek solace in the arms of the closest sympathetic person. You spill your guts to them about all your feelings. Maybe you fall into the arms of an old<br />love. Maybe you go back to someone who's burned you before. Tomorrow you'll have to face the consequences...but tonight you'll take comfort where you can find it.</span></p><h2>Last Time On</h2><p>At the beginning of each episode, choose one from the list below and cross it off. Once all are gone, it's time for the series finale.</p><ul><li><p><span class=\"fontstyle0\">You came so very, very close to kissing someone you shouldn't.</span></p></li><li><p><span class=\"fontstyle0\">You acquired the most beautiful, elegant outfit you've ever seen.</span></p></li><li><p><span class=\"fontstyle0\">You pushed someone in a fit of anger and hurt them more than you wanted.</span></p></li><li><p><span class=\"fontstyle0\">You intercepted a letter meant for someone else.</span></p></li><li><p><span class=\"fontstyle0\">You witnessed something horrible but don't know who did it.</span></p></li><li><p><span class=\"fontstyle0\">You hid something where it will hopefully be safe.</span></p></li><li><p><span class=\"fontstyle0\">You told a dear friend a secret that should have stayed undisclosed.</span></p></li></ul><h2>Your Suitors</h2><p></p><h3>@UUID[Compendium.pasion-de-las-pasiones.playbooks.Item.Gx47kmT6VpZkoCMg]{Your Suitors}</h3><p>Choose two people (ideally player characters) to be your Suitors; they are actively courting you, even if you're already in a relationship. At the beginning of play, choose one to be your Love. ________________________________ ________________________________</p><p>Take +1 ongoing with your Love when you act to strengthen the relationship.</p><p>When you share intimacy or feelings with a Suitor who is not currently your Love, make them your new Love. If you initiated the intimacy, clear a <em>condition</em>. If they initiated the intimacy, they clear a <em>condition</em>.</p><p>At any time that you insult, break up with, or are disappointed by a Suitor, you can break the ties with them and choose someone else to take their place.</p><h2>Moves</h2><p><span class=\"fontstyle0\">CHOOSE ONE</span><br style=\"font-style:normal;font-variant:normal;font-weight:normal;letter-spacing:normal;line-height:normal;orphans:2;text-align:-webkit-auto;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-size-adjust:auto;-webkit-text-stroke-width:0px\" /></p><h3>@UUID[Compendium.pasion-de-las-pasiones.playbooks.Item.Bj5Eg5IZe9cOsHHx]{Confesión}</h3><p>When you tell someone of your wrongdoings, roll with the questions:</p><ul><li><p>Do you view the other as pure of heart?</p></li><li><p>Do you invoke religion or family?</p></li></ul><p>On a hit (7+), you feel your soul lightened and clear a <em>condition</em>.</p><p>On a 7-9, you give them enough detail that they can later prove your wrongdoings or they can immediately clear a <em>condition</em> themselves, their choice.</p><p>On a miss (6-), the worst person possible overhears you.</p><p></p><h3>@UUID[Compendium.pasion-de-las-pasiones.playbooks.Item.8piIhXIicJklnUnC]{You Brute!}</h3><p>When you @UUID[Compendium.pasion-de-las-pasiones.moves.Item.C9GvWd6IY5KcAgSI]{strike out with voice or violence} or @UUID[Compendium.pasion-de-las-pasiones.moves.Item.bJci1vpORz3rIoW4]{accuse someone of lying} while you have four <em>conditions</em> marked, ignore all penalties from <em>conditions</em> for those moves.</p><p>When you @UUID[Compendium.pasion-de-las-pasiones.moves.Item.C9GvWd6IY5KcAgSI]{strike out} at your Love or @UUID[Compendium.pasion-de-las-pasiones.moves.Item.bJci1vpORz3rIoW4]{accuse your Love of lying}, you may immediately swap your Love to the other Suitor to take a 10+ on the move.</p><p></p><h3>@UUID[Compendium.pasion-de-las-pasiones.playbooks.Item.weIWut2EUA9r0gfd]{Keys to the Castle}</h3><p>When you reveal that you've been secretly listening to a whole conversation, roll with the questions:</p><ul><li><p>Do you work here?</p></li><li><p>Are you dressed to blend in?</p></li></ul><p>On a 7-9, you get away, but someone saw you—you pick who it was.</p><p>On a 10+, you got away without being spotted or you ask the conspirators a follow-up question, your choice.</p><p>On a miss (6-), you stumble, knock something over, or otherwise reveal yourself. You're in the thick of it.</p>",
+    "slug": "la-empleada",
+    "actorType": "character",
+    "stats": {},
+    "statsDetail": "",
+    "attributes": {
+      "questionempleada": {
+        "label": "Your Question",
+        "type": "LongText",
+        "value": "",
+        "choices": [
+          {
+            "value": "<p>Are you in over your head?</p>",
+            "options": {}
+          }
+        ],
+        "custom": false,
+        "path": "attributes",
+        "description": ""
+      },
+      "apparenceempleada": {
+        "label": "Look",
+        "type": "LongText",
+        "value": "",
+        "choices": [],
+        "custom": false,
+        "path": "attributes"
+      },
+      "relationempleada": {
+        "label": "Relationships",
+        "type": "LongText",
+        "value": "",
+        "choices": [
+          {
+            "value": "<ul><li><p>__________ looms large in your life as your employer.</p></li><li><p>__________ was the first person who was nice to you despite your humble beginnings.</p></li></ul>",
+            "options": {}
+          }
+        ],
+        "custom": false,
+        "path": "attributes",
+        "description": ""
+      },
+      "pretendants": {
+        "label": "Suitors",
+        "description": "Mark your Love",
+        "type": "ListMany",
+        "options": {
+          "0": {
+            "label": "[Text]",
+            "value": false
+          },
+          "1": {
+            "label": "[Text]",
+            "value": false
+          }
+        },
+        "choices": [],
+        "custom": false,
+        "path": "attributes"
+      },
+      "etatsempleada": {
+        "label": "Conditions",
+        "type": "ListMany",
+        "options": {
+          "0": {
+            "label": "Hopeless: +1 to spot something out of place, -2 to accuse someone of lying",
+            "value": false
+          },
+          "1": {
+            "label": "Lovelorn: +1 to express your love passionately, -2 to act with desperation",
+            "value": false
+          },
+          "2": {
+            "label": "Cagey: +1 to manipulate a superior, -2 to demand what you deserve",
+            "value": false
+          },
+          "3": {
+            "label": "Introspective: +1 to process your feelings out loud, -2 to strike out",
+            "value": false
+          }
+        },
+        "choices": [],
+        "custom": false,
+        "path": "attributes"
+      },
+      "episodesempleada": {
+        "label": "Last Time On",
+        "type": "ListMany",
+        "options": {
+          "0": {
+            "label": "You came so very, very close to kissing someone you shouldn't.",
+            "value": false
+          },
+          "1": {
+            "label": "You acquired the most beautiful, elegant outfit you've ever seen.",
+            "value": false
+          },
+          "2": {
+            "label": "You pushed someone in a fit of anger and hurt them more than you wanted.",
+            "value": false
+          },
+          "3": {
+            "label": "You intercepted a letter meant for someone else.",
+            "value": false
+          },
+          "4": {
+            "label": "You witnessed something horrible but don't know who did it.",
+            "value": false
+          },
+          "5": {
+            "label": "You hid something where it will hopefully be safe",
+            "value": false
+          },
+          "6": {
+            "label": "You told a dear friend a secret that should have stayed undisclosed. ",
+            "value": false
+          }
+        },
+        "choices": [],
+        "custom": false,
+        "path": "attributes"
+      }
+    },
+    "choiceSets": [
+      {
+        "title": "Thugs",
+        "desc": "",
+        "type": "multi",
+        "repeatable": true,
+        "choices": [
+          {
+            "uuid": "Compendium.pasion-de-las-pasiones.playbooks.Item.Gx47kmT6VpZkoCMg",
+            "img": "modules/pasion-de-las-pasiones/images/icons/empleada.webp",
+            "granted": false,
+            "advancement": 0
+          }
+        ],
+        "grantOn": 0,
+        "granted": false,
+        "advancement": 0
+      },
+      {
+        "title": "",
+        "desc": "CHOOSE ONE",
+        "type": "multi",
+        "repeatable": false,
+        "choices": [
+          {
+            "uuid": "Compendium.pasion-de-las-pasiones.playbooks.Item.Bj5Eg5IZe9cOsHHx",
+            "img": "modules/pasion-de-las-pasiones/images/icons/empleada.webp",
+            "granted": false,
+            "advancement": 0
+          },
+          {
+            "uuid": "Compendium.pasion-de-las-pasiones.playbooks.Item.8piIhXIicJklnUnC",
+            "img": "modules/pasion-de-las-pasiones/images/icons/empleada.webp",
+            "granted": false,
+            "advancement": 0
+          },
+          {
+            "img": "modules/pasion-de-las-pasiones/images/icons/empleada.webp",
+            "uuid": "Compendium.pasion-de-las-pasiones.playbooks.Item.weIWut2EUA9r0gfd",
+            "granted": false,
+            "advancement": 0
+          }
+        ],
+        "grantOn": 1,
+        "granted": false,
+        "advancement": 0
+      }
+    ]
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "NCcxUpA1X43TucQV": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pbta",
+    "systemVersion": "1.1.13",
+    "createdTime": 1739016932541,
+    "modifiedTime": 1739048480473,
+    "lastModifiedBy": "NCcxUpA1X43TucQV"
+  },
+  "_key": "!items!caEBoQIgmoaMuQaa"
+}

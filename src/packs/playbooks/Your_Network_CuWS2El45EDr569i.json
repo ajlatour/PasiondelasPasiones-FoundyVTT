@@ -1,0 +1,52 @@
+{
+  "folder": "ljzE0Ff9wwVc6zYc",
+  "name": "Your Network",
+  "type": "move",
+  "img": "modules/pasion-de-las-pasiones/images/icons/dona.webp",
+  "system": {
+    "description": "<p>Your network works to advance your <em>schemes</em>. Choose two from the list below and announce to everyone what these schemes are. You cannot have more than two at a time. At the start of a session, you may swap one out for another.</p><ul><li><strong>Seize Property</strong>. Choose a known property or valuable object. You have someone keeping an eye on it full time. When it changes hands, you know. </li><li><strong>Opportunity</strong>. Choose someone who has, in your opinion, wronged you. Your network will let you know immediately when they are alone. </li><li><strong>Protection</strong>. Choose a character or thing your network protects. They keep them safe from death and serious harm as long as they are under your protection.</li><li><strong>Bring Them Together</strong>. Choose two characters. You convinced society that they belong and are together. When they are intimate with others, you learn of it. </li><li> <strong>Keep Them Apart</strong>. Choose two characters. Through your machinations, you are keeping them apart. When they make plans to meet, you learn of them.</li></ul>",
+    "moveType": "",
+    "rollFormula": "",
+    "moveResults": {
+      "success": {
+        "key": "system.moveResults.success.value",
+        "label": "10+",
+        "value": ""
+      },
+      "partial": {
+        "key": "system.moveResults.partial.value",
+        "label": "7-9",
+        "value": ""
+      },
+      "failure": {
+        "key": "system.moveResults.failure.value",
+        "label": "Miss",
+        "value": ""
+      }
+    },
+    "uses": 0,
+    "rollType": "",
+    "rollMod": 0,
+    "actorType": "character",
+    "choices": ""
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pbta",
+    "systemVersion": "1.1.13",
+    "createdTime": 1739015917075,
+    "modifiedTime": 1739045806580,
+    "lastModifiedBy": "NCcxUpA1X43TucQV"
+  },
+  "_id": "CuWS2El45EDr569i",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "NCcxUpA1X43TucQV": 3
+  },
+  "_key": "!items!CuWS2El45EDr569i"
+}

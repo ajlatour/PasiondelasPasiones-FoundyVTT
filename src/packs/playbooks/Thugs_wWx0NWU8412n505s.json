@@ -1,0 +1,52 @@
+{
+  "folder": "lUOlEoysyo51AF99",
+  "name": "Thugs",
+  "type": "move",
+  "img": "modules/pasion-de-las-pasiones/images/icons/jefe.webp",
+  "system": {
+    "description": "<p>A small crew of four to six tough guys backs you up. Name them. When you send them to rough up a target, answer the following questions, and roll the dice:</p><ul><li>Is it an easy assignment?</li><li>Is the crew well rested and in good health?</li></ul>",
+    "moveType": "",
+    "rollFormula": "",
+    "moveResults": {
+      "success": {
+        "key": "system.moveResults.success.value",
+        "label": "10+",
+        "value": "<p>The crew rough up the target. The target chooses two:</p><ul><li>The crew makes a clear demand; the target gives your crew what you're looking for.</li><li>The crew beats up the target; the target marks a <em>condition</em>.</li><li>The crew intimidates the target; the target gives up something else of value to appease them.</li></ul>"
+      },
+      "partial": {
+        "key": "system.moveResults.partial.value",
+        "label": "7-9",
+        "value": "<p>The crew rough up the target. The target chooses o<span class=\"fontstyle0\">ne option from the following list</span>:</p><ul><li>The crew makes a clear demand; the target gives your crew what you're looking for.</li><li>The crew beats up the target; the target marks a <em>condition</em>.</li><li>The crew intimidates the target; the target gives up something else of value to appease them.</li></ul>"
+      },
+      "failure": {
+        "key": "system.moveResults.failure.value",
+        "label": "Miss",
+        "value": ""
+      }
+    },
+    "uses": 0,
+    "rollType": "prompt",
+    "rollMod": 0,
+    "actorType": "character",
+    "choices": ""
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pbta",
+    "systemVersion": "1.1.13",
+    "createdTime": 1739015917075,
+    "modifiedTime": 1739047752355,
+    "lastModifiedBy": "NCcxUpA1X43TucQV"
+  },
+  "_id": "wWx0NWU8412n505s",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "NCcxUpA1X43TucQV": 3
+  },
+  "_key": "!items!wWx0NWU8412n505s"
+}

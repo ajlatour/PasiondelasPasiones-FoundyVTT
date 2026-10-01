@@ -1,0 +1,22 @@
+{
+  "name": "El Sabor del Amor",
+  "sorting": "a",
+  "folder": null,
+  "type": "Actor",
+  "_id": "xSTF1fvIq11F66Qa",
+  "description": "",
+  "sort": 0,
+  "color": null,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pbta",
+    "systemVersion": "1.1.13",
+    "createdTime": 1739016465252,
+    "modifiedTime": 1739016465252,
+    "lastModifiedBy": "NCcxUpA1X43TucQV"
+  },
+  "_key": "!folders!xSTF1fvIq11F66Qa"
+}

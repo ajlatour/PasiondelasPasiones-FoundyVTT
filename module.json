@@ -1,7 +1,8 @@
 {
-  "id": "pasion-de-las-pasiones-vf",
-  "title": "Pasión de las Pasiones EN",
-  "version": "1.0.0",
+  "id": "pasion-de-las-pasiones",
+  "title": "Pasión de las Pasiones",
+  "description": "Pasión de las Pasiones for the Powered by the Apocalypse system: playbooks, moves, NPCs and game aids. English by default, with community translations.",
+  "version": "2.0.0",
   "manifest": "https://raw.githubusercontent.com/ajlatour/PasiondelasPasiones-FoundyVTT/main/module.json",
   "download": "https://github.com/ajlatour/PasiondelasPasiones-FoundyVTT/archive/refs/heads/main.zip",
   "compatibility": {
@@ -20,11 +21,38 @@
   "styles": [
     "styles/pasiondelaspasiones.css"
   ],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json"
+    },
+    {
+      "lang": "fr",
+      "name": "Français",
+      "path": "lang/fr.json"
+    }
+  ],
+  "relationships": {
+    "systems": [
+      {
+        "id": "pbta",
+        "type": "system"
+      }
+    ],
+    "recommends": [
+      {
+        "id": "babele",
+        "type": "module",
+        "reason": "Translates the compendium content into your language (not needed for English)."
+      }
+    ]
+  },
   "packs": [
     {
-      "name": "aides-de-jeu",
+      "name": "game-aids",
       "label": "Game Aids",
-      "path": "packs/aides-de-jeu",
+      "path": "packs/game-aids",
       "type": "JournalEntry",
       "ownership": {
         "PLAYER": "OBSERVER",
@@ -34,9 +62,9 @@
       "flags": {}
     },
     {
-      "name": "manoeuvres-de-base-et-secondaires",
+      "name": "moves",
       "label": "Basic and Peripheral Moves",
-      "path": "packs/manoeuvres-de-base-et-secondaires",
+      "path": "packs/moves",
       "type": "Item",
       "ownership": {
         "PLAYER": "OBSERVER",
@@ -46,9 +74,9 @@
       "flags": {}
     },
     {
-      "name": "livrets",
+      "name": "playbooks",
       "label": "Playbooks",
-      "path": "packs/livrets",
+      "path": "packs/playbooks",
       "type": "Item",
       "ownership": {
         "PLAYER": "OBSERVER",
@@ -58,9 +86,9 @@
       "flags": {}
     },
     {
-      "name": "cadres-de-jeu",
+      "name": "playsets",
       "label": "Playsets",
-      "path": "packs/cadres-de-jeu",
+      "path": "packs/playsets",
       "type": "Actor",
       "ownership": {
         "PLAYER": "OBSERVER",

@@ -1,0 +1,71 @@
+{
+  "label": "Cadres de jeu",
+  "mapping": {
+    "system": {
+      "path": "system",
+      "converter": "pasionSystem"
+    }
+  },
+  "folders": {
+    "El Sabor del Amor": "El Sabor del Amor",
+    "La Rosa Querida": "La Rosa Querida"
+  },
+  "entries": {
+    "dAqxe0rszcbvzla3": {
+      "_name": "Ale Montaña",
+      "name": "Ale Montaña",
+      "system.attributes.accrochem.label": "Accroche et manœuvre",
+      "system.attributes.accrochem.value": "<ul><li><p><strong>Accroche</strong> : obtenir d’Ale qu’il prenne une pause.</p></li><li><p><strong>Manœuvre</strong> : quand tu cuisines avec quelqu’un, tant que tu as le contrôle sur Ale, indique l’ingrédient spécial qu’il a fourni, et lance cette manœuvre avec un bonus de +1.</p></li></ul><p></p>",
+      "system.details.biography.label": "Biographie"
+    },
+    "ngnjpLvErMPsI2Uc": {
+      "_name": "Alma Lacasa",
+      "name": "Alma Lacasa",
+      "system.attributes.accrochem.label": "Accroche et manœuvre",
+      "system.attributes.accrochem.value": "<ul><li><p><strong>Accroche</strong> : lui montrer ton nom sur l’acte de propriété de l’hôtel.</p></li><li><p><strong>Manœuvre</strong> : quand tu demandes à Alma de surveiller quelqu’un, elle te dira quand cette personne se rend dans une chambre qui n’est pas la sienne.</p></li></ul>",
+      "system.details.biography.label": "Biographie"
+    },
+    "ZQIivv9rmyOLWTPE": {
+      "_name": "Cruz Villar",
+      "name": "Cruz Villar",
+      "system.attributes.accrochem.label": "Accroche et manœuvre",
+      "system.attributes.accrochem.value": "<ul><li><p><strong>Accroche</strong> : insulter ou repousser Nacio devant Cruz.</p></li><li><p><strong>Manœuvre</strong> : quand tu demandes à Cruz de distraire quelqu’un, elle s’approche de sa table et joue une longue sérénade. Les PNJ ne peuvent pas interrompre cette distraction, mais ils ont conscience de son caractère suspect. Les PJ peuvent l’éviter en cochant un <em>état</em>.</p></li></ul><p></p>",
+      "system.details.biography.label": "Biographie"
+    },
+    "ZGDCl7KpJLZZlGbt": {
+      "_name": "Efraim Sánchez",
+      "name": "Efraim Sánchez",
+      "system.attributes.accrochem.label": "Accroche et manœuvre",
+      "system.attributes.accrochem.value": "<ul><li><p><strong>Accroche</strong> : lui raconter un ragot croustillant.</p></li><li><p><strong>Manœuvre</strong> : quand tu demandes à Efraim avec qui une personne a été vue pour la dernière fois, il te dit qui c’était, tout en multipliant les allusions et les sous-entendus.</p></li></ul>",
+      "system.details.biography.label": "Biographie"
+    },
+    "dFvqNqI2jKGGcwpL": {
+      "_name": "Horacio Cabello",
+      "name": "Horacio Cabello",
+      "system.attributes.accrochem.label": "Accroche et manœuvre",
+      "system.attributes.accrochem.value": "<ul><li><p><strong>Accroche</strong> : déjeuner avec lui et répondre honnêtement à ses questions indiscrètes.</p></li><li><p><strong>Manœuvre</strong> : quand tu demandes à Horacio de transporter clandestinement quelqu’un ou quelque chose de <em>La Náutica</em>, ses fils amèneront son camion à l’arrière et l’emporteront en douce. Ils insisteront soit pour finir leur repas d’abord, soit pour travailler parmi le personnel de cuisine.</p></li></ul>",
+      "system.details.biography.label": "Biographie"
+    },
+    "WnXUxlFdGy6J38Qy": {
+      "_name": "Nacio Ibarra",
+      "name": "Nacio Ibarra",
+      "system.attributes.accrochem.label": "Accroche et manœuvre",
+      "system.attributes.accrochem.value": "<ul><li><p><strong>Accroche</strong> : lui faciliter l’achat de <em>La Náutica</em>.</p></li><li><p><strong>Manœuvre</strong> : quand tu déclares ta flamme avec passion à Nacio, sur un succès, tu peux lui demander un cadeau coûteux. Il te l’apportera la prochaine fois qu’il te verra.</p></li></ul><p></p>",
+      "system.details.biography.label": "Biographie"
+    },
+    "m8hrhiIwamleGPdV": {
+      "_name": "Raul Galindo",
+      "name": "Raul Galindo",
+      "system.attributes.accrochem.label": "Accroche et manœuvre",
+      "system.attributes.accrochem.value": "<ul><li><p><strong>Accroche</strong> : partager avec lui un moment d’intimité physique.</p></li><li><p><strong>Manœuvre</strong> : quand tu fuis une scène dans laquelle Raul est présent, il empêche qu’on te poursuive pendant suffisamment de temps pour que tu puisses t’enfuir</p></li></ul>",
+      "system.details.biography.label": "Biographie"
+    },
+    "C9tEVrOT4xTtMyOq": {
+      "_name": "Santino Pinto",
+      "name": "Santino Pinto",
+      "system.attributes.accrochem.label": "Accroche et manœuvre",
+      "system.attributes.accrochem.value": "<ul><li><p><strong>Accroche</strong> : lui montrer une forme de vulnérabilité émotionnelle.</p></li><li><p><strong>Manœuvre</strong> : quand tu demandes à Santino de foutre quelqu’un dehors, il l’escorte hors de l’hôtel.</p></li></ul>",
+      "system.details.biography.label": "Biographie"
+    }
+  }
+}

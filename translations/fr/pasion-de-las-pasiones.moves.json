@@ -1,0 +1,127 @@
+{
+  "label": "Manœuvres de base et secondaires",
+  "mapping": {
+    "system": {
+      "path": "system",
+      "converter": "pasionSystem"
+    }
+  },
+  "folders": {
+    "Basic Moves": "Manœuvres de base",
+    "Secondary Moves": "Manœuvres secondaires"
+  },
+  "entries": {
+    "bJci1vpORz3rIoW4": {
+      "_name": "Accuse Someone of Lying",
+      "name": "Accuser de mentir",
+      "system.description": "<p>Quand tu accuses quelqu’un, face-à-face, de mentir, réponds aux questions suivantes, et lance les dés.</p><ul><li><p>As-tu un public ?</p></li><li><p>As-tu des preuves ?</p></li></ul>",
+      "system.moveResults.success.label": "Succès 10+ !",
+      "system.moveResults.success.value": "<p>Choisis deux options de la liste suivante.</p><ul><li><p>Tu as raison, peu importe ce que les spectateurs ont précédemment vu.</p></li><li><p>Ton interlocuteur doit admettre son mensonge ou cocher un <em>état</em>.</p></li><li><p>Ton interlocuteur est surpris, effrayé ou troublé ; il doit @UUID[Compendium.pasion-de-las-pasiones.moves.Item.ZG3GSRjBqIiTmB0Z]{agir en désespoir de cause} avant de pouvoir agir à ton encontre.</p></li></ul>",
+      "system.moveResults.partial.label": "Succès 7+ !",
+      "system.moveResults.partial.value": "<p>Choisis une option de la liste suivante.</p><ul><li><p>Tu as raison, peu importe ce que les spectateurs ont précédemment vu.</p></li><li><p>Ton interlocuteur doit admettre son mensonge ou cocher un <em>état</em>.</p></li><li><p>Ton interlocuteur est surpris, effrayé ou troublé ; il doit @UUID[Compendium.pasion-de-las-pasiones.moves.Item.ZG3GSRjBqIiTmB0Z]{agir en désespoir de cause} avant de pouvoir agir à ton encontre.</p></li></ul>",
+      "system.moveResults.failure.label": "Râté..."
+    },
+    "ZG3GSRjBqIiTmB0Z": {
+      "_name": "Act With Desperation",
+      "name": "Agir en désespoir de cause",
+      "system.description": "<p>Quand tu agis de manière désespérée, explique au MJ quelle situation tu souhaites éviter, réponds aux questions suivantes, et lance les dés.</p><ul><li><p>Agis-tu par amour ?</p></li><li><p>Agis-tu par vengeance ?</p></li></ul>",
+      "system.moveResults.success.label": "Succès 10+ !",
+      "system.moveResults.success.value": "<p>Tu évites cette situation. Tu évites toute complication supplémentaire.</p>",
+      "system.moveResults.partial.label": "Succès 7+ !",
+      "system.moveResults.partial.value": "<p>Tu évites cette situation. Coche un <em>état</em> ou le MJ introduira une conséquence imprévue ou une complication supplémentaire.</p>",
+      "system.moveResults.failure.label": "Râté..."
+    },
+    "TcWPAx8tGRie1Sb6": {
+      "_name": "Demand What You Deserve",
+      "name": "Exiger son dû",
+      "system.description": "<p>Quand tu exiges ce qui te revient de plein droit, réponds aux questions suivantes, et lance les dés.</p><ul><li><p>Offres-tu quelque chose de valeur en retour ?</p></li><li><p>Est-ce que la cible de ta revendication t’aime en ce moment ?</p></li></ul>",
+      "system.moveResults.success.label": "Succès 10+ !",
+      "system.moveResults.success.value": "<p>La cible choisit une option dans la liste suivante. Retire-lui la possibilité de choisir l’une de ces options :</p><ul><li><p>La cible cède ; elle peut décocher un <em>état</em>.</p></li><li><p>La cible refuse et envenime la situation ; elle coche un <em>état</em>.</p></li><li><p>La cible s’enfuit ; tu lui prends quelque chose.</p></li></ul>",
+      "system.moveResults.partial.label": "Succès 7+ !",
+      "system.moveResults.partial.value": "<p>La cible choisit une option dans la liste suivante.</p><ul><li><p>La cible cède ; elle peut décocher un <em>état</em>.</p></li><li><p>La cible refuse et envenime la situation ; elle coche un <em>état</em>.</p></li><li><p>La cible s’enfuit ; tu lui prends quelque chose.</p></li></ul>",
+      "system.moveResults.failure.label": "Râté..."
+    },
+    "w4NFPGL4Kx8TtRfn": {
+      "_name": "Express Your Love Passionately",
+      "name": "Déclarer sa flamme avec passion",
+      "system.description": "<p>Quand tu exprimes passionnément ton amour, réponds aux questions suivantes, et lance les dés.</p><ul><li><p>Es-tu habillé(e) pour éblouir ?</p></li><li><p>Est-ce que ton interlocuteur te croit célibataire ?</p></li></ul>",
+      "system.moveResults.success.label": "Succès 10+ !",
+      "system.moveResults.success.value": "<p>Ton interlocuteur choisit soit de céder à tes charmes, soit de te révéler un secret qu’il aurait mieux fait de garder pour lui. Il te révèle également s’il t’aime ou non, et quelle autre personne il aime.<span class=\"fontstyle0\"><br></span></p>",
+      "system.moveResults.partial.label": "Succès 7+ !",
+      "system.moveResults.partial.value": "<p>Ton interlocuteur choisit soit de céder à tes charmes, soit de te révéler un secret qu’il aurait mieux fait de garder pour lui.</p>",
+      "system.moveResults.failure.label": "Râté..."
+    },
+    "H1y45QiS6PYPAUL7": {
+      "_name": "Face Certain Death",
+      "name": "Faire face à une mort certaine",
+      "system.description": "<p>Quand tu fais face à une mort certaine, lance les dés en y ajoutant le nombre de tes <em>états</em> cochés.</p>",
+      "system.moveResults.success.label": "Succès 10+ !",
+      "system.moveResults.success.value": "<p>Le public choisit une option de la liste suivante. Une fois qu’une option a été choisie, elle est rayée ; plus personne ne peut la choisir à nouveau.</p><ul><li><p>Être sauvé in extremis par la personne de ton choix.</p></li><li><p>Gagner une cicatrice distinctive, mais sexy.</p></li><li><p>Gagner un handicap permanent (boitement, cache-œil, etc.).</p></li><li><p>Devenir une version déformée et maléfique de toi-même.</p></li><li><p>Souffrir d’amnésie.</p></li><li><p>Revenir avec un nouveau visage. ӹ Sombrer dans un coma, éventuellement de longue durée.</p></li><li><p>Mourir pour de bon. (Cette option peut toujours être choisie.)</p></li></ul>",
+      "system.moveResults.partial.label": "Succès 7+ !",
+      "system.moveResults.partial.value": "<p>Choisis une option de la liste suivante. Une fois qu’une option a été choisie, elle est rayée ; plus personne ne peut la choisir à nouveau.</p><ul><li><p>Être sauvé in extremis par la personne de ton choix.</p></li><li><p>Gagner une cicatrice distinctive, mais sexy.</p></li><li><p>Gagner un handicap permanent (boitement, cache-œil, etc.).</p></li><li><p>Devenir une version déformée et maléfique de toi-même.</p></li><li><p>Souffrir d’amnésie.</p></li><li><p>Revenir avec un nouveau visage. ӹ Sombrer dans un coma, éventuellement de longue durée.</p></li><li><p>Mourir pour de bon. (Cette option peut toujours être choisie.)</p></li></ul>",
+      "system.moveResults.failure.label": "Râté..."
+    },
+    "3CLPpupJ1BSyXYwY": {
+      "_name": "Flash Back to Preparations",
+      "name": "Préparatifs",
+      "system.description": "<p>Quand tu mets en scène un flashback dans lequel tu as fait des préparatifs, réponds aux questions suivantes, et lance les dés.</p><ul><li><p>Avais-tu largement le temps de les faire ?</p></li><li><p>Est-ce que quelqu’un veillait à éviter les ennuis ?</p></li></ul>",
+      "system.moveResults.success.label": "Succès 10+ !",
+      "system.moveResults.success.value": "<p>Choisis une option dans la liste suivante. Coche un <em>état</em>, ou le MJ te dira quelle est la faille de ton plan ou comment tu te retrouves mêlé à un autre problème.</p><ul><li><p>Tu as fabriqué une preuve ; explique de quoi il s’agit.</p></li><li><p>Tu t’es arrangé(e) pour que quelqu’un se trouve au bon endroit au bon moment.</p></li><li><p>Tu as dissimulé quelque chose.</p></li></ul>",
+      "system.moveResults.partial.label": "Succès 7+ !",
+      "system.moveResults.partial.value": "<p>Choisis une option dans la liste suivante.</p><ul><li><p>Tu as fabriqué une preuve ; explique de quoi il s’agit.</p></li><li><p>Tu t’es arrangé(e) pour que quelqu’un se trouve au bon endroit au bon moment.</p></li><li><p>Tu as dissimulé quelque chose.</p></li></ul>",
+      "system.moveResults.failure.label": "Râté...",
+      "system.moveResults.failure.value": "<p>Choisis malgré tout une option de la liste suivante, mais le MJ annoncera qui était tapi en arrière-plan et en quoi cette personne a interféré avant que le flashback se termine.</p><ul><li><p>Tu as fabriqué une preuve ; explique de quoi il s’agit.</p></li><li><p>Tu t’es arrangé(e) pour que quelqu’un se trouve au bon endroit au bon moment.</p></li><li><p>Tu as dissimulé quelque chose.</p></li></ul>"
+    },
+    "3EdfFL5zzGRV5Oxt": {
+      "_name": "Manipulate a Superior",
+      "name": "Manipuler un supérieur",
+      "system.description": "<p>Quand tu manipules un interlocuteur qui est mieux placé que toi socialement, annonce-lui ce que tu veux qu’il fasse, puis réponds aux questions suivantes, et lance les dés.</p><ul><li><p>Ton interlocuteur est-il de bonne humeur ?</p></li><li><p>Ton bien-être a-t-il une incidence sur le sien ?</p></li></ul>",
+      "system.moveResults.success.label": "Succès 10+ !",
+      "system.moveResults.success.value": "<p>Il se laisse convaincre de faire ce que tu veux.</p>",
+      "system.moveResults.partial.label": "Succès 7+ !",
+      "system.moveResults.partial.value": "<p>Il se laisse convaincre de faire ce que tu veux. Pour finir de le convaincre, choisis une des options de la liste suivante :</p><ul><li><p>Tu dois t’humilier ou te rabaisser ; coche un <em>état</em>.</p></li><li><p>Tu dois d’abord lui donner ce qu’il désire.</p></li></ul>",
+      "system.moveResults.failure.label": "Râté..."
+    },
+    "wQO9aJp5sChjcoUG": {
+      "_name": "Process Your Feelings Out Loud",
+      "name": "Exprimer ses sentiments à haute voix",
+      "system.description": "<p>Quand tu exprimes tes sentiments à haute voix, demande à chaque spectateur s’il te soutient, et lance les dés. Pour chaque spectateur qui te soutient, gagne +1 sur le jet de dés (le bonus maximum est de +3).</p>",
+      "system.moveResults.success.label": "Succès 10+ !",
+      "system.moveResults.success.value": "<p>Choisis une des options de la liste suivante :</p><ul><li><p>Le public te révèle un événement crucial dont tu n’avais pas conscience.</p></li><li><p>Le public te dit comment trouver l’amour avec le partenaire de son choix.</p></li><li><p>Le public te dit comment amener [quelqu’un] à [faire quelque chose].</p></li></ul><p>Gagne +1 continu tant que tu exploites cette information. Plante le décor d’une scène où tu exploites immédiatement cette information.</p>",
+      "system.moveResults.partial.label": "Succès 7+ !",
+      "system.moveResults.partial.value": "<p>Choisis une des options de la liste suivante :</p><ul><li><p>Le public te révèle un événement crucial dont tu n’avais pas conscience.</p></li><li><p>Le public te dit comment trouver l’amour avec le partenaire de son choix.</p></li><li><p>Le public te dit comment amener [quelqu’un] à [faire quelque chose].</p></li></ul><p>Gagne +1 continu tant que tu exploites cette information.</p>",
+      "system.moveResults.failure.label": "Râté..."
+    },
+    "pL8aMNqpQhUZxBpo": {
+      "_name": "Reveal a Shocking Truth",
+      "name": "Faire une révélation stupéfiante",
+      "system.description": "<p>Quand tu mets en scène un flashback pour faire une révélation stupéfiante sur un PJ qui te fait face, lance les dés en y ajoutant le nombre de tes états cochés, puis coche un <em>état</em>.</p>",
+      "system.moveResults.success.label": "Succès 10+ !",
+      "system.moveResults.success.value": "<p>La nouvelle crée un véritable choc ; on interlocuteur doit @UUID[Compendium.pasion-de-las-pasiones.moves.Item.ZG3GSRjBqIiTmB0Z]{agir en désespoir de cause} avant d’agir contre toi. Choisis deux options de la liste suivante.</p><ul><li><p>Tu disposes de la preuve irréfutable qu’il s’agit de la vérité.</p></li><li><p>Cette vérité stupéfiante te donne le droit de revendiquer quelque chose auquel ton interlocuteur tient.</p></li><li><p>Tu introduis un nouveau PNJ qui te soutient.</p></li></ul>",
+      "system.moveResults.partial.label": "Succès 7+ !",
+      "system.moveResults.partial.value": "<p>La nouvelle crée un véritable choc ;on interlocuteur doit @UUID[Compendium.pasion-de-las-pasiones.moves.Item.ZG3GSRjBqIiTmB0Z]{agir en désespoir de cause} avant d’agir contre toi. Choisis une option de la liste suivante.</p><ul><li><p>Tu disposes de la preuve irréfutable qu’il s’agit de la vérité.</p></li><li><p>Cette vérité stupéfiante te donne le droit de revendiquer quelque chose auquel ton interlocuteur tient.</p></li><li><p>Tu introduis un nouveau PNJ qui te soutient.</p></li></ul>",
+      "system.moveResults.failure.label": "Râté...",
+      "system.moveResults.failure.value": "<p>Ton plan t’explose en pleine figure ; le MJ fournira les détails.</p>"
+    },
+    "iev5oXkeRFpO0Mgi": {
+      "_name": "Spot Something Out of Place",
+      "name": "Remarquer quelque chose d’incongru",
+      "system.description": "<p>Quand tu essaies de remarquer quelque chose d’incongru lors d’une interaction sociale ou dans les affaires personnelles de quelqu’un, réponds aux questions suivantes, et lance les dés.</p><ul><li><p>Avez-vous partagé un moment d’intimité récemment ?</p></li><li><p>Es-tu à l’abri de toute autre distraction ?</p></li></ul>",
+      "system.moveResults.success.label": "Succès 10+ !",
+      "system.moveResults.success.value": "<p>Pose deux questions dans la liste suivante.</p><ul><li><p>Que ressens-tu au sujet de __________ ?</p></li><li><p>Que prévois-tu de faire ?</p></li><li><p>Comment puis-je t’amener à __________ ?</p></li><li><p>Que possèdes-tu de précieux ou d’utile ?</p></li><li><p>Qu’espères-tu obtenir [de/en] __________ ?</p></li></ul>",
+      "system.moveResults.partial.label": "Succès 7+ !",
+      "system.moveResults.partial.value": "<p>Pose deux questions dans la liste suivante. Ta cible te pose également une question.</p><ul><li><p>Que ressens-tu au sujet de __________ ?</p></li><li><p>Que prévois-tu de faire ?</p></li><li><p>Comment puis-je t’amener à __________ ?</p></li><li><p>Que possèdes-tu de précieux ou d’utile ?</p></li><li><p>Qu’espères-tu obtenir [de/en] __________ ?</p></li></ul>",
+      "system.moveResults.failure.label": "Râté..."
+    },
+    "C9GvWd6IY5KcAgSI": {
+      "_name": "Strike Out With Voice or Violence",
+      "name": "S’en prendre à autrui",
+      "system.description": "<p>Quand tu t’en prends à quelqu’un, physiquement ou verbalement, réponds aux questions suivantes, et lance les dés.</p><ul><li><p>As-tu pris ta cible au dépourvu ?</p></li><li><p>Ta cible vient-elle de te faire du tort ?</p></li></ul>",
+      "system.moveResults.success.label": "Succès 10+ !",
+      "system.moveResults.success.value": "<p>Tes attaques font mouche ; vous cochez chacun un <em>état</em>. Tu lui prends également quelque chose ou tu évites de cocher un <em>état</em>.</p>",
+      "system.moveResults.partial.label": "Succès 7+ !",
+      "system.moveResults.partial.value": "<p>Tes attaques font mouche ; vous cochez chacun un <em>état</em>.</p>",
+      "system.moveResults.failure.label": "Râté..."
+    }
+  }
+}

@@ -42,7 +42,7 @@ Don't hesitate to support this excellent game! You can [give it 5 stars, buy it]
 
 ## Installation
 Use this link in FoundryVTT's modules section
-https://github.com/Chibib/PasiondelasPasiones-FoundyVTT/releases/latest/download/module.json
+https://github.com/ajlatour/PasiondelasPasiones-FoundyVTT/releases/latest/download/module.json
 
 ![image](https://github.com/user-attachments/assets/b587280b-c3e0-470d-a1c4-bb54cb935c40)
 
@@ -59,6 +59,9 @@ If you have any questions, feel free to contact me
 - Detailed character creation
 - Items can be dragged and dropped from the journals
 - La Rosa Querida and El Sabor del Amor
+
+## Languages
+The module ships in English and Français. Set your language in Foundry's core settings; English needs nothing extra, other languages also need the [Babele](https://foundryvtt.com/packages/babele) module (and its libWrapper dependency) enabled in the world. Want to add a language? See [TRANSLATING.md](TRANSLATING.md).
 
 ## Requirements
 You need to have installed the [Powered by the Apocalypse system by Asacolips](https://github.com/asacolips-projects/pbta)

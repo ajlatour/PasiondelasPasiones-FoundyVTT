@@ -1,0 +1,52 @@
+{
+  "folder": "lUOlEoysyo51AF99",
+  "name": "Bitter Rage",
+  "type": "move",
+  "img": "modules/pasion-de-las-pasiones/images/icons/jefe.webp",
+  "system": {
+    "description": "<p>While you have Raging marked, take an extra +1 to the bonus to @UUID[Compendium.pasion-de-las-pasiones.moves.Item.C9GvWd6IY5KcAgSI]{strike out}. Furthermore, if it's a physical attack and you get a 10+, you may choose to immediately knock out the target.</p>",
+    "moveType": "playbook",
+    "rollFormula": "",
+    "moveResults": {
+      "success": {
+        "key": "system.moveResults.success.value",
+        "label": "10+",
+        "value": ""
+      },
+      "partial": {
+        "key": "system.moveResults.partial.value",
+        "label": "7-9",
+        "value": ""
+      },
+      "failure": {
+        "key": "system.moveResults.failure.value",
+        "label": "Miss",
+        "value": ""
+      }
+    },
+    "uses": 0,
+    "rollType": "",
+    "rollMod": 0,
+    "actorType": "character",
+    "choices": ""
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pbta",
+    "systemVersion": "1.1.13",
+    "createdTime": 1739015917075,
+    "modifiedTime": 1739047807585,
+    "lastModifiedBy": "NCcxUpA1X43TucQV"
+  },
+  "_id": "IqbXaRSht9EGjost",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "NCcxUpA1X43TucQV": 3
+  },
+  "_key": "!items!IqbXaRSht9EGjost"
+}

@@ -1,0 +1,52 @@
+{
+  "folder": "j6u8dydivTeQx7Gy",
+  "name": "Your Suitors",
+  "type": "move",
+  "img": "modules/pasion-de-las-pasiones/images/icons/empleada.webp",
+  "system": {
+    "description": "<p>Choose two characters (ideally PCs) as Suitors. They court you, even if you're already in a relationship. At the start of play, choose one to be your Love. ________________________________ ________________________________</p><p>Take +1 ongoing with your <em>Love</em> when you act to strengthen your relationship.</p><p>When you share a moment of intimacy or your feelings with a <em>Suitor</em> who is not currently your <em>Love</em>, they become your new <em>Love</em>. If you initiated this moment, clear a <em>condition</em>. If they initiated it, they clear a <em>condition</em>.</p><p>When you insult, break up with, or are disappointed by one of your <em>Suitors</em>, you may cut ties with them. Choose another character to replace them.</p>",
+    "moveType": "",
+    "rollFormula": "",
+    "moveResults": {
+      "success": {
+        "key": "system.moveResults.success.value",
+        "label": "10+",
+        "value": ""
+      },
+      "partial": {
+        "key": "system.moveResults.partial.value",
+        "label": "7-9",
+        "value": ""
+      },
+      "failure": {
+        "key": "system.moveResults.failure.value",
+        "label": "Miss",
+        "value": ""
+      }
+    },
+    "uses": 0,
+    "rollType": "",
+    "rollMod": 0,
+    "actorType": "character",
+    "choices": ""
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pbta",
+    "systemVersion": "1.1.13",
+    "createdTime": 1739015917075,
+    "modifiedTime": 1739047007590,
+    "lastModifiedBy": "NCcxUpA1X43TucQV"
+  },
+  "_id": "Gx47kmT6VpZkoCMg",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "NCcxUpA1X43TucQV": 3
+  },
+  "_key": "!items!Gx47kmT6VpZkoCMg"
+}
