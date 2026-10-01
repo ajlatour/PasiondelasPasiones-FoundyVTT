@@ -1,0 +1,139 @@
+{
+  "folder": "xSTF1fvIq11F66Qa",
+  "name": "Nacio Ibarra",
+  "type": "npc",
+  "_id": "WnXUxlFdGy6J38Qy",
+  "img": "modules/pasion-de-las-pasiones/images/acteurs/Nacio%20Ibarra.webp",
+  "system": {
+    "stats": {},
+    "attributes": {
+      "accrochem": {
+        "label": "Hook and Move",
+        "description": null,
+        "customLabel": false,
+        "userLabel": false,
+        "playbook": null,
+        "limited": false,
+        "position": "left",
+        "type": "LongText",
+        "value": "<ul><li><p><strong>Hook</strong>: do something to make it easier for Nacio to buy <em>La Náutica</em>.</p></li><li><p><strong>Move</strong>: when you express your love passionately to Nacio, on a hit you may ask him for an expensive gift. He brings it to you the next time he sees you.</p></li></ul><p></p>"
+      }
+    },
+    "attrLeft": {},
+    "attrTop": {},
+    "details": {
+      "biography": {
+        "label": "Biography",
+        "value": ""
+      }
+    },
+    "tags": ""
+  },
+  "prototypeToken": {
+    "name": "Nacio Ibarra",
+    "displayName": 0,
+    "actorLink": false,
+    "appendNumber": false,
+    "prependAdjective": false,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "modules/pasion-de-las-pasiones/images/acteurs/Nacio%20Ibarra_token.webp",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "hexagonalShape": 0,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 0,
+    "bar1": {
+      "attribute": null
+    },
+    "bar2": {
+      "attribute": null
+    },
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "flags": {},
+    "randomImg": false
+  },
+  "items": [],
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "NCcxUpA1X43TucQV": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pbta",
+    "systemVersion": "1.1.13",
+    "createdTime": 1739176382278,
+    "modifiedTime": 1739176400966,
+    "lastModifiedBy": "NCcxUpA1X43TucQV"
+  },
+  "_key": "!actors!WnXUxlFdGy6J38Qy"
+}

@@ -1,0 +1,136 @@
+{
+  "name": "MC Game Aids",
+  "pages": [
+    {
+      "sort": 100000,
+      "name": "Agendas, Principles, and Moves",
+      "type": "text",
+      "_id": "UGkbMqLZtvzoyLLz",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<blockquote><p>These game aids were made thanks to the work of Khelren and with their permission; don't hesitate to support their work here: https://khelren.itch.io/pasion or buy them a coffee at https://ko-fi.com/khelren</p></blockquote><p></p><h2>Agendas</h2><ul><li><p>Heighten the romantic and extraordinary character of telenovelas.</p></li><li><p>Make the characters' lives unpredictable and explosive.</p></li><li><p>Play to find out what happens.</p></li></ul><p></p><h2><span class=\"fontstyle0\">Principles</span></h2><ul><li><p>Film every scene like a telenovela.</p></li><li><p>Give weight to social status.</p></li><li><p>Address the characters, not the players.</p></li><li><p>Make an MC move, but don't name it.</p></li><li><p>Reward cruelty in the short term; reward kindness in the long term.</p></li><li><p>Be a fan of the PCs.</p></li><li><p>Destabilize the PCs when they think they're safe.</p></li><li><p>Never fix the truth in place; let the story evolve.</p></li><li><p>Don't draw straight lines in romantic relationships, but tangled webs.</p></li><li><p>Intertwine public life and private life.</p></li><li><p>Dangle temptations of every kind.</p></li><li><p>Sometimes, give up making the decisions.</p></li></ul><p></p><h2>Moves</h2><ul><li><p>Inflict a <em>condition</em>.</p></li><li><p>Make a moment romantic.</p></li><li><p>Put rivals face to face.</p></li><li><p>Reveal a terrible secret.</p></li><li><p>Reveal a hidden complication to the public.</p></li><li><p>Put a PC in a difficult situation.</p></li><li><p>Offer an easy way out at a price.</p></li><li><p>Turn a PC's move back on them.</p></li><li><p>Announce an upcoming reversal of fortune.</p></li><li><p>Demand they play their role.</p></li><li><p>Make a move from a character playbook or playset.</p></li><li><p>After every move, ask \"What do you do?\"</p></li></ul>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "9nMoOjWUlN3vRdWE": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "pbta",
+        "systemVersion": "1.1.13",
+        "createdTime": null,
+        "modifiedTime": 1739048703350,
+        "lastModifiedBy": "NCcxUpA1X43TucQV"
+      },
+      "_key": "!journal.pages!UiOJbxaxEHU4uKy6.UGkbMqLZtvzoyLLz"
+    },
+    {
+      "sort": 200000,
+      "name": "Character Playbooks",
+      "type": "text",
+      "_id": "78CreE5Qkfe3zpSu",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<h3>La Belleza </h3><p><strong>Are you the center of attention?</strong></p><ul><li><p>Hold her to an impossibly high standard. </p></li><li><p>Make serious matters go over her head. </p></li><li><p>Put a rejected suitor back in play. </p></li><li><p>Air her dirty laundry in public. </p></li><li><p>Offer her conditional love. </p></li></ul><p></p><h3>El Caballero </h3><p><strong>Are you handling things straightforwardly and without guile?</strong></p><ul><li><p>Throw him into a physical altercation. </p></li><li><p>Bring up his past. </p></li><li><p>Send him down an obviously dangerous path. </p></li><li><p>Challenge him when propriety demands he know how to behave. </p></li><li><p>Show him the consequences of using violence. </p></li></ul><p></p><h3>La Doña </h3><p><strong>Are you keeping your hands clean?</strong> </p><ul><li><p>Add a complication to a <em>scheme</em>.</p></li><li><p>Threaten a loved one. </p></li><li><p>Ask her to solve a problem on an NPC's behalf. </p></li><li><p>Reveal her schemes. </p></li><li><p>Offer her a gift, but with strings attached. </p></li></ul><p></p><h3>La Empleada </h3><p><strong>Are you in over your head?</strong></p><ul><li><p>Turn up the romance a notch. </p></li><li><p>Highlight her finest qualities or her worst flaws. </p></li><li><p>Bring a <em>Suitor</em> into the scene. </p></li><li><p>Show what a fulfilling romantic relationship looks like. </p></li><li><p>Make her the center of attention.</p></li></ul>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "9nMoOjWUlN3vRdWE": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "pbta",
+        "systemVersion": "1.1.13",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!journal.pages!UiOJbxaxEHU4uKy6.78CreE5Qkfe3zpSu"
+    },
+    {
+      "sort": 300000,
+      "name": "NPC",
+      "type": "text",
+      "_id": "Ix1K966fqIEURT8b",
+      "system": {},
+      "title": {
+        "show": true,
+        "level": 1
+      },
+      "image": {},
+      "text": {
+        "format": 1,
+        "content": "<h3>Female first names</h3><p><strong>Simple:</strong> Alejandra, Alicia, Celeste, Celina, Citlali, Claudia, Daniela, Dulce, María, Elena, Estrella, Graciela, Irene, Itzel, Karina, Lucía, María Angélica/Angélica María, María de Lourdes (Lulú), María Fernanda (Marifer), Mariana, Maricela, Marisol, Marta, Mónica, Regina, Rosa Margarita, Sofía, Teresa, Ximena, Xóchitl, Yadira, Yolanda.</p><p><strong>Elegant:</strong> Altagracia del Rosario, Angustias, Blanca Azucena, Camila, Ana Carlota, Elvira, Encarnación, Felicia, Gloria Luisa, Julieta, María Antonieta, María Cristina, Patricia Elizabeth, Santa, Victoria.</p><p></p><h3>Male first names</h3><p><em><strong>Simple</strong>:</em> Adrián, Antonio, Cuauhtémoc, Ezequiel, Fernando, Francisco Javier, Gael, Gustavo Adolfo, Humberto (Beto), Israel, Jesús, José Luis, José Manuel, Juan Carlos, Juan Manuel, Luis Felipe, Luis Fernando, Luis Miguel, Mateo, Mario, Miguel Ángel, Noel, Orlando, Roberto (Beto), Rogelio, Santiago, Saúl, Tonatiuh.</p><p><em><strong>Elegant</strong></em>: Adalberto, Antonio, Clemente, Dante, Emiliano, Fausto, Joaquín, León, Leonardo, Lorenzo, Maximiliano, Nicolás, Porfirio, Santiago, Sebastián.</p><p></p><h3>Ambivalent first names</h3><p>Alex, Andy, Anid, Ariel, Asunción, Azul, Cruz, Francis, Guadalupe, Reyes, Trinidad, Zoé.</p><p></p><h3>Female middle names</h3><p>Alma, Ana, Belén, Berenice, Blanca, de los Ángeles, del Carmen, Luz/de la Luz, Margarita, Mercedes, Rosa.</p><p></p><h3>Male middle names</h3><p>Carlos, Ignacio, Isaac, Iván, Jesús, Jorge, José, Juan, Luis.</p><p></p><h3>Ambivalent middle names</h3><p>Concepción, de Jesús, Guadalupe, José, María, Rosario/del Rosario, Sagrario, Trinidad.</p><p></p><h3>Surnames</h3><p>Altamirano, Álvarez, Andrade, Balam, Ballesteros, Benítez, Castillo, Castro, Contreras, de la Cruz, de León, del Toro, Díaz, Espinoza, Flores, García, Gómez, González, Gutiérrez, Hernández, López, Mamani, Martínez, Mejía, Mora, Padilla, Pérez, Pech, Quirós, Quispe, Reyes, Rivera, Rodríguez, Rojas, Salazar, Sánchez, Silva, Torres, Vargas, Zambrano. Conditions and NPCs NPCs do not have conditions. ӹ</p><p></p><h2><span class=\"fontstyle0\">Conditions and NPCs</span></h2><p><span class=\"fontstyle0\"><br /></span><span class=\"fontstyle2\">NPCs do not have conditions.<br /></span></p><ul><li><p><span class=\"fontstyle2\">If an NPC would mark a condition, they feel a strong emotion and react vehemently instead. The MC plays one of their moves.</span></p></li><li><p><span class=\"fontstyle2\">When an NPC would clear a condition, they display a form of relief or happiness and react with gratitude.</span> <br style=\"font-style:normal;font-variant:normal;font-weight:normal;letter-spacing:normal;line-height:normal;orphans:2;text-align:-webkit-auto;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-size-adjust:auto;-webkit-text-stroke-width:0px\" /></p></li></ul>"
+      },
+      "video": {
+        "controls": true,
+        "volume": 0.5
+      },
+      "src": null,
+      "ownership": {
+        "default": -1,
+        "NCcxUpA1X43TucQV": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "coreVersion": "12.331",
+        "systemId": "pbta",
+        "systemVersion": "1.1.13",
+        "createdTime": null,
+        "modifiedTime": null,
+        "lastModifiedBy": null
+      },
+      "_key": "!journal.pages!UiOJbxaxEHU4uKy6.Ix1K966fqIEURT8b"
+    }
+  ],
+  "folder": null,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pbta",
+    "systemVersion": "1.1.13",
+    "createdTime": 1739016013074,
+    "modifiedTime": 1739016013074,
+    "lastModifiedBy": "NCcxUpA1X43TucQV"
+  },
+  "_id": "UiOJbxaxEHU4uKy6",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "NCcxUpA1X43TucQV": 3
+  },
+  "_key": "!journal!UiOJbxaxEHU4uKy6",
+  "categories": []
+}

@@ -1,0 +1,180 @@
+{
+  "name": "El Jefe",
+  "type": "playbook",
+  "_id": "0JQtadHxHmH49Aq9",
+  "img": "modules/pasion-de-las-pasiones/images/icons/jefe.webp",
+  "system": {
+    "description": "<p><span class=\"fontstyle0\">Authoritarian, hot-tempered, and menacing, El Jefe commands his henchmen to seize control of the situation.</span></p><h2>Name</h2><p><span class=\"fontstyle0\">Choose a name from one of these lists, or make up your own:</span></p><ul><li><p><span class=\"fontstyle0\">Catalina, Dulcina, Evangelina, Marcia, Soraya.</span></p></li><li><p><span class=\"fontstyle0\">Eladio, Ernesto, Federico, Octavio, Roberto</span>.</p></li></ul><h2>Look</h2><p>Choose at least one option from each list:</p><ul><li><p><span class=\"fontstyle0\">Business-like hair, gelled hair, jet hair, styled hair.</span></p></li><li><p><span class=\"fontstyle0\">Angry eyes, paranoid eyes, searching eyes, sultry eyes.</span></p></li><li><p><span class=\"fontstyle0\">Formal clothes, uniform clothes, expensive clothes, understated clothes.</span></p></li></ul><h2>Your Question</h2><ul><li><p><span class=\"fontstyle0\">Are you taking control of this situation?</span></p></li></ul><h2>Relationships</h2><ul><li><p><span class=\"fontstyle0\">__________ has been a thorn in your side and a constant irritation.</span></p></li><li><p><span class=\"fontstyle0\">__________ is an object of beauty you have sworn to possess.</span></p></li></ul><h2>Conditions</h2><ul><li><p><span class=\"fontstyle0\">Reactive: +1 to</span><span class=\"fontstyle2\"> </span><span class=\"fontstyle0\">@UUID[Compendium.pasion-de-las-pasiones.playbooks-and-moves.Item.ZG3GSRjBqIiTmB0Z]{act with desperation}, -2 to </span><span class=\"fontstyle2\">@UUID[Compendium.pasion-de-las-pasiones.playbooks-and-moves.Item.bJci1vpORz3rIoW4]{accuse someone of lying}.</span></p></li><li><p><span class=\"fontstyle0\">Raging: +1 to @UUID[Compendium.pasion-de-las-pasiones.playbooks-and-moves.Item.C9GvWd6IY5KcAgSI]{strike out with voice or violence}, -2 to </span><span class=\"fontstyle2\">@UUID[Compendium.pasion-de-las-pasiones.playbooks-and-moves.Item.iev5oXkeRFpO0Mgi]{spot something out of place}</span><span class=\"fontstyle0\">.</span></p></li><li><p><span class=\"fontstyle0\">Righteous: +1 to @UUID[Compendium.pasion-de-las-pasiones.playbooks-and-moves.Item.TcWPAx8tGRie1Sb6]{demand what you deserve}, -2 to </span><span class=\"fontstyle2\">@UUID[Compendium.pasion-de-las-pasiones.playbooks-and-moves.Item.3EdfFL5zzGRV5Oxt]{manipulate a superior}</span><span class=\"fontstyle0\">.</span></p></li><li><p><span class=\"fontstyle0\">Lustful: +1 to </span><span class=\"fontstyle2\">@UUID[Compendium.pasion-de-las-pasiones.playbooks-and-moves.Item.w4NFPGL4Kx8TtRfn]{express your love passionately},</span><span class=\"fontstyle0\"> -2 to @UUID[Compendium.pasion-de-las-pasiones.playbooks-and-moves.Item.wQO9aJp5sChjcoUG]{process your feelings out loud}</span>.</p></li></ul><h2>Meltdown</h2><p><span class=\"fontstyle0\">They think they can manipulate you, displace you. They don't understand—you own them!<br />You directly confront the worst offender and hurt them. You show them that you don't need money or backup. Maybe you destroy things they love. Maybe you cut some throats. Tomorrow you'll have to wash your hands and play nice...but tonight the blood on your knuckles will match the rage in your heart.</span></p><h2>Last Time On</h2><p>At the beginning of each episode, choose one from the list below and cross it off. Once all are gone, it's time for the series finale.</p><ul><li><p><span class=\"fontstyle0\">You showed someone a moment of tender weakness.</span></p></li><li><p><span class=\"fontstyle0\">You swore to take revenge against someone important.</span></p></li><li><p><span class=\"fontstyle0\">You took over a business or political seat as an interim leader.</span></p></li><li><p><span class=\"fontstyle0\">You revealed that you know a secret truth hidden from someone.</span></p></li><li><p><span class=\"fontstyle0\">You lost something truly valuable that you must recover.</span></p></li><li><p><span class=\"fontstyle0\">You lost your temper and hurt one of your associates.</span></p></li><li><p><span class=\"fontstyle0\">You tightened your grip on something until it snapped.</span></p></li></ul><h2>Thugs</h2><h3>@UUID[Compendium.pasion-de-las-pasiones.playbooks-and-moves.Item.wWx0NWU8412n505s]{Thugs}</h3><p>You have a small crew ready to enforce your plans, about 4–6 people. Give them names. When you send them to rough up a target, answer the following questions, and roll the dice:</p><ul><li><p>Is it an easy assignment?</p></li><li><p>Is the crew well rested and in good health?</p></li></ul><p>On a hit (7+), they show up to rough up your target. On a 7-9, your target chooses one. On a 10+, your target chooses two:</p><ul><li><p>The crew makes a clear demand; your target gives your crew what you're looking for.</p></li><li><p>The crew beats up your target; your target marks a <em>condition</em>.</p></li><li><p>The crew intimidates your target; your target gives up something else of value to appease them.</p></li></ul><h2>Moves</h2><p><span class=\"fontstyle0\">CHOOSE ONE.</span><br style=\"font-style:normal;font-variant:normal;font-weight:normal;letter-spacing:normal;line-height:normal;orphans:2;text-align:-webkit-auto;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-size-adjust:auto;-webkit-text-stroke-width:0px\" /></p><h3>@UUID[Compendium.pasion-de-las-pasiones.playbooks-and-moves.Item.IqbXaRSht9EGjost]{Bitter Rage}</h3><p>While you have Raging marked, take an extra +1 to the bonus to @UUID[Compendium.pasion-de-las-pasiones.playbooks-and-moves.Item.C9GvWd6IY5KcAgSI]{strike out}. When you have Raging marked and roll a 10+ on strike out while physically attacking someone, you may choose to immediately knock them out.</p><p></p><h3>@UUID[Compendium.pasion-de-las-pasiones.playbooks-and-moves.Item.rVsO4EFhqhTGMpqR]{Dangerous Passion}</h3><p>When you angrily @UUID[Compendium.pasion-de-las-pasiones.playbooks-and-moves.Item.w4NFPGL4Kx8TtRfn]{express your love}, you may mark a <em>condition</em> to move a miss (6-) to a 7-9, or a 7-9 to a 10+.</p><p></p><h3>@UUID[Compendium.pasion-de-las-pasiones.playbooks-and-moves.Item.t6lHXEE8PuiaBzec]{Plata o Plomo}</h3><p>When you @UUID[Compendium.pasion-de-las-pasiones.playbooks-and-moves.Item.TcWPAx8tGRie1Sb6]{demand what you deserve} and you have the physical upper hand, they mark an additional <em>condition</em> if they refuse and escalate.</p><p></p>",
+    "slug": "el-jefe",
+    "actorType": "character",
+    "stats": {},
+    "statsDetail": "",
+    "attributes": {
+      "questionjefe": {
+        "label": "Your Question",
+        "type": "LongText",
+        "value": "",
+        "choices": [
+          {
+            "value": "<p>Are you taking control of this situation?</p>",
+            "options": {}
+          }
+        ],
+        "custom": false,
+        "path": "attributes",
+        "description": ""
+      },
+      "apparencejefe": {
+        "label": "Look",
+        "type": "LongText",
+        "value": "",
+        "choices": [],
+        "custom": false,
+        "path": "attributes"
+      },
+      "relationjefe": {
+        "label": "Relationships",
+        "type": "LongText",
+        "value": "",
+        "choices": [
+          {
+            "value": "<ul><li><p>__________ has been a thorn in your side and a constant irritation. </p></li><li><p>__________ is an object of beauty you have sworn to possess.</p></li></ul>",
+            "options": {}
+          }
+        ],
+        "custom": false,
+        "path": "attributes",
+        "description": ""
+      },
+      "etatsjefe": {
+        "label": "Conditions",
+        "type": "ListMany",
+        "options": {
+          "0": {
+            "label": "Reactive: +1 to act with desperation, -2 to accuse someone of lying.",
+            "value": false
+          },
+          "1": {
+            "label": "Raging: +1 to strike out, -2 to spot something out of place",
+            "value": false
+          },
+          "2": {
+            "label": "Righteous: +1 to demand what you deserve, -2 to manipulate a superior.",
+            "value": false
+          },
+          "3": {
+            "label": " Lustful: +1 to express your love passionately, -2 to process your feelings out loud.",
+            "value": false
+          }
+        },
+        "choices": [],
+        "custom": false,
+        "path": "attributes"
+      },
+      "episodesjefe": {
+        "label": "Last Time On",
+        "type": "ListMany",
+        "options": {
+          "0": {
+            "label": "You showed someone a moment of tender weakness",
+            "value": false
+          },
+          "1": {
+            "label": "You swore to take revenge against someone important",
+            "value": false
+          },
+          "2": {
+            "label": "You took over a business or political seat as an interim leader.",
+            "value": false
+          },
+          "3": {
+            "label": "You revealed that you know a secret truth hidden from someone",
+            "value": false
+          },
+          "4": {
+            "label": "You lost something truly valuable that you must recover",
+            "value": false
+          },
+          "5": {
+            "label": "You lost your temper and hurt one of your associates",
+            "value": false
+          },
+          "6": {
+            "label": "You tightened your grip on something until it snapped",
+            "value": false
+          }
+        },
+        "choices": [],
+        "custom": false,
+        "path": "attributes"
+      }
+    },
+    "choiceSets": [
+      {
+        "title": "Thugs",
+        "desc": "",
+        "type": "multi",
+        "repeatable": true,
+        "choices": [
+          {
+            "uuid": "Compendium.pasion-de-las-pasiones.playbooks-and-moves.Item.wWx0NWU8412n505s",
+            "img": "modules/pasion-de-las-pasiones/images/icons/jefe.webp",
+            "granted": false,
+            "advancement": 0
+          }
+        ],
+        "grantOn": 0,
+        "granted": false,
+        "advancement": 0
+      },
+      {
+        "title": "",
+        "desc": "CHOOSE ONE.",
+        "type": "multi",
+        "repeatable": false,
+        "choices": [
+          {
+            "uuid": "Compendium.pasion-de-las-pasiones.playbooks-and-moves.Item.IqbXaRSht9EGjost",
+            "img": "modules/pasion-de-las-pasiones/images/icons/jefe.webp",
+            "granted": false,
+            "advancement": 0
+          },
+          {
+            "uuid": "Compendium.pasion-de-las-pasiones.playbooks-and-moves.Item.rVsO4EFhqhTGMpqR",
+            "img": "modules/pasion-de-las-pasiones/images/icons/jefe.webp",
+            "granted": false,
+            "advancement": 0
+          },
+          {
+            "img": "modules/pasion-de-las-pasiones/images/icons/jefe.webp",
+            "uuid": "Compendium.pasion-de-las-pasiones.playbooks-and-moves.Item.t6lHXEE8PuiaBzec",
+            "granted": false,
+            "advancement": 0
+          }
+        ],
+        "grantOn": 1,
+        "granted": false,
+        "advancement": 0
+      }
+    ]
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "NCcxUpA1X43TucQV": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pbta",
+    "systemVersion": "1.1.13",
+    "createdTime": 1739016896265,
+    "modifiedTime": 1739048578593,
+    "lastModifiedBy": "NCcxUpA1X43TucQV"
+  },
+  "_key": "!items!0JQtadHxHmH49Aq9"
+}

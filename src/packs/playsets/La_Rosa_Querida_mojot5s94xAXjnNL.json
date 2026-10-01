@@ -1,0 +1,22 @@
+{
+  "name": "La Rosa Querida",
+  "sorting": "a",
+  "folder": null,
+  "type": "Actor",
+  "_id": "mojot5s94xAXjnNL",
+  "description": "",
+  "sort": 0,
+  "color": null,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pbta",
+    "systemVersion": "1.1.13",
+    "createdTime": 1739016450227,
+    "modifiedTime": 1739016450227,
+    "lastModifiedBy": "NCcxUpA1X43TucQV"
+  },
+  "_key": "!folders!mojot5s94xAXjnNL"
+}

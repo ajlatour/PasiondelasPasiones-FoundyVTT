@@ -1,0 +1,52 @@
+{
+  "folder": "Er4C3XwCU6OlpeOT",
+  "name": "Reveal a Shocking Truth",
+  "type": "move",
+  "img": "modules/pasion-de-las-pasiones/images/icons/flashback.webp",
+  "system": {
+    "description": "<p>When you flash back to reveal a shocking truth about a PC in front of you, roll the dice, adding the number of your conditions marked, then mark a <em>condition</em>.</p>",
+    "moveType": "secondaires",
+    "rollFormula": "",
+    "moveResults": {
+      "success": {
+        "key": "system.moveResults.success.value",
+        "label": "10+",
+        "value": "<p>The news is staggering; the person you're speaking to must @UUID[Compendium.pasion-de-las-pasiones.playbooks-and-moves.Item.ZG3GSRjBqIiTmB0Z]{act with desperation} before they can act against you. Choose two options from the following list.</p><ul><li><p>You have unequivocal evidence this is true.</p></li><li><p>The shocking truth gives you rightful claim to something they value.</p></li><li><p>You introduce a shocking new character who has your back.</p></li></ul>"
+      },
+      "partial": {
+        "key": "system.moveResults.partial.value",
+        "label": "7-9",
+        "value": "<p>The news is staggering; the person you're speaking to must @UUID[Compendium.pasion-de-las-pasiones.playbooks-and-moves.Item.ZG3GSRjBqIiTmB0Z]{act with desperation} before they can act against you. Choose one option from the following list.</p><ul><li><p>You have unequivocal evidence this is true.</p></li><li><p>The shocking truth gives you rightful claim to something they value.</p></li><li><p>You introduce a shocking new character who has your back.</p></li></ul>"
+      },
+      "failure": {
+        "key": "system.moveResults.failure.value",
+        "label": "Miss",
+        "value": "<p>It blows up in your face; the MC will provide the details.</p>"
+      }
+    },
+    "uses": 0,
+    "rollType": "prompt",
+    "rollMod": 0,
+    "actorType": "character",
+    "choices": ""
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pbta",
+    "systemVersion": "1.1.13",
+    "createdTime": 1739015924733,
+    "modifiedTime": 1739017443218,
+    "lastModifiedBy": "NCcxUpA1X43TucQV"
+  },
+  "_id": "pL8aMNqpQhUZxBpo",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "NCcxUpA1X43TucQV": 3
+  },
+  "_key": "!items!pL8aMNqpQhUZxBpo"
+}

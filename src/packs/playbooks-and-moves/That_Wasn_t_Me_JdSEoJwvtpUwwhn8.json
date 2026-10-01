@@ -1,0 +1,52 @@
+{
+  "folder": "8qQFGLnYqcI00jiT",
+  "name": "That Wasn't Me",
+  "type": "move",
+  "img": "modules/pasion-de-las-pasiones/images/icons/gemelo.webp",
+  "system": {
+    "description": "<p>When someone sets a scene with you or your twin, mark a <em>condition</em> to switch which one of you is really there</p>",
+    "moveType": "playbook",
+    "rollFormula": "",
+    "moveResults": {
+      "success": {
+        "key": "system.moveResults.success.value",
+        "label": "10+",
+        "value": ""
+      },
+      "partial": {
+        "key": "system.moveResults.partial.value",
+        "label": "7-9",
+        "value": ""
+      },
+      "failure": {
+        "key": "system.moveResults.failure.value",
+        "label": "Miss",
+        "value": ""
+      }
+    },
+    "uses": 0,
+    "rollType": "",
+    "rollMod": 0,
+    "actorType": "character",
+    "choices": ""
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pbta",
+    "systemVersion": "1.1.13",
+    "createdTime": 1739015917075,
+    "modifiedTime": 1739047459149,
+    "lastModifiedBy": "NCcxUpA1X43TucQV"
+  },
+  "_id": "JdSEoJwvtpUwwhn8",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "NCcxUpA1X43TucQV": 3
+  },
+  "_key": "!items!JdSEoJwvtpUwwhn8"
+}

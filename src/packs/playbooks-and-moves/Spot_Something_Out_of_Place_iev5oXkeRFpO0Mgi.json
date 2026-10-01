@@ -1,0 +1,52 @@
+{
+  "name": "Spot Something Out of Place",
+  "type": "move",
+  "img": "modules/pasion-de-las-pasiones/images/icons/base.webp",
+  "system": {
+    "description": "<p>When you try to spot something out of place in a social interaction or someone's personal space, answer the following questions, and roll the dice.</p><ul><li><p>Have you been intimate with them recently?</p></li><li><p>Are you free of other distractions?</p></li></ul>",
+    "moveType": "basic",
+    "rollFormula": "",
+    "moveResults": {
+      "success": {
+        "key": "system.moveResults.success.value",
+        "label": "10+",
+        "value": "<p>Ask two questions from the following list.</p><ul><li><p>How does your character feel about __________?</p></li><li><p>What are you planning?</p></li><li><p>How could I get your character to __________?</p></li><li><p>What do you have of value or use?</p></li><li><p>What do you hope to get from __________?</p></li></ul>"
+      },
+      "partial": {
+        "key": "system.moveResults.partial.value",
+        "label": "7-9",
+        "value": "<p>Ask two questions from the following list. Your target also asks you a question.</p><ul><li><p>How does your character feel about __________?</p></li><li><p>What are you planning?</p></li><li><p>How could I get your character to __________?</p></li><li><p>What do you have of value or use?</p></li><li><p>What do you hope to get from __________?</p></li></ul>"
+      },
+      "failure": {
+        "key": "system.moveResults.failure.value",
+        "label": "Miss",
+        "value": ""
+      }
+    },
+    "uses": 0,
+    "rollType": "prompt",
+    "rollMod": 0,
+    "actorType": "character",
+    "choices": ""
+  },
+  "effects": [],
+  "folder": "KssWIBUVVbQLaPOQ",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pbta",
+    "systemVersion": "1.1.13",
+    "createdTime": 1739015924733,
+    "modifiedTime": 1739017414241,
+    "lastModifiedBy": "NCcxUpA1X43TucQV"
+  },
+  "_id": "iev5oXkeRFpO0Mgi",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "NCcxUpA1X43TucQV": 3
+  },
+  "_key": "!items!iev5oXkeRFpO0Mgi"
+}

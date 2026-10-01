@@ -1,0 +1,52 @@
+{
+  "name": "Act With Desperation",
+  "type": "move",
+  "img": "modules/pasion-de-las-pasiones/images/icons/base.webp",
+  "system": {
+    "description": "<p>When you act with desperation, tell the MC what situation you want to avoid, answer the following questions, and roll the dice.</p><ul><li><p>Are you doing this for love?</p></li><li><p>Are you doing this for vengeance?</p></li></ul>",
+    "moveType": "basic",
+    "rollFormula": "",
+    "moveResults": {
+      "success": {
+        "key": "system.moveResults.success.value",
+        "label": "10+",
+        "value": "<p>You avoid the situation you wanted to avoid. You also avoid further complication.</p>"
+      },
+      "partial": {
+        "key": "system.moveResults.partial.value",
+        "label": "7-9",
+        "value": "<p>You avoid the situation you wanted to avoid. Mark a <em>condition</em> or the MC will give you an unforeseen consequence or added complication.</p>"
+      },
+      "failure": {
+        "key": "system.moveResults.failure.value",
+        "label": "Miss",
+        "value": ""
+      }
+    },
+    "uses": 0,
+    "rollType": "prompt",
+    "rollMod": 0,
+    "actorType": "character",
+    "choices": ""
+  },
+  "effects": [],
+  "folder": "KssWIBUVVbQLaPOQ",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pbta",
+    "systemVersion": "1.1.13",
+    "createdTime": 1739015924733,
+    "modifiedTime": 1739017387824,
+    "lastModifiedBy": "NCcxUpA1X43TucQV"
+  },
+  "_id": "ZG3GSRjBqIiTmB0Z",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "NCcxUpA1X43TucQV": 3
+  },
+  "_key": "!items!ZG3GSRjBqIiTmB0Z"
+}

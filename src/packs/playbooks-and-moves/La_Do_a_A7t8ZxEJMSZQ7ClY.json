@@ -1,0 +1,188 @@
+{
+  "name": "La Doña",
+  "type": "playbook",
+  "_id": "A7t8ZxEJMSZQ7ClY",
+  "img": "modules/pasion-de-las-pasiones/images/icons/dona.webp",
+  "system": {
+    "description": "<p>Manipulative, vengeful, and powerful, La Doña weaves her web behind the scenes. Scheming, but perhaps with fond memories of what they once were.</p><h2>Name</h2><p><span class=\"fontstyle0\">Choose a name from one of these lists, or make up your own:</span></p><ul><li><p><span class=\"fontstyle0\">Altagracia, Angélica, Camila, Carmina, Graciela</span></p></li><li><p><span class=\"fontstyle0\">Bernardo, Isidro, Octavio, Santiago, Valencio.</span></p></li></ul><h2>Look</h2><p>Choose at least one option from each list:</p><ul><li><p><span class=\"fontstyle0\">Controlled hair, dyed hair, silvering hair, luxurious hair</span></p></li><li><p><span class=\"fontstyle0\">Measuring eyes, skeptical eyes, thoughtful eyes, welcoming eyes</span></p></li><li><p><span class=\"fontstyle0\">Formal clothes, professional clothes, tailored clothes, youthful clothes.</span></p></li></ul><h2>Your Question</h2><ul><li><p><span class=\"fontstyle0\">Are you keeping your hands clean?</span></p></li></ul><h2>Relationships</h2><ul><li><p><span class=\"fontstyle0\">__________ is someone you've sparred with for a very long time.</span></p></li><li><p><span class=\"fontstyle0\">__________ is like a broken little bird you take care of.</span></p></li></ul><h2>Conditions</h2><ul><li><p><span class=\"fontstyle0\">Chiding: +1 to </span><span class=\"fontstyle2\">@UUID[Compendium.pasion-de-las-pasiones.playbooks-and-moves.Item.bJci1vpORz3rIoW4]{accuse someone of lying},</span><span class=\"fontstyle0\"> -2 to </span><span class=\"fontstyle2\">@UUID[Compendium.pasion-de-las-pasiones.playbooks-and-moves.Item.C9GvWd6IY5KcAgSI]{strike out}.</span></p></li><li><p><span class=\"fontstyle0\">Righteous: +1 to </span><span class=\"fontstyle2\">@UUID[Compendium.pasion-de-las-pasiones.playbooks-and-moves.Item.TcWPAx8tGRie1Sb6]{demand what you deserve}</span><span class=\"fontstyle0\">, -2 to </span><span class=\"fontstyle2\">@UUID[Compendium.pasion-de-las-pasiones.playbooks-and-moves.Item.3EdfFL5zzGRV5Oxt]{manipulate a superior}</span><span class=\"fontstyle0\">.</span></p></li><li><p><span class=\"fontstyle0\">Ruminative: +1 to </span><span class=\"fontstyle2\">@UUID[Compendium.pasion-de-las-pasiones.playbooks-and-moves.Item.wQO9aJp5sChjcoUG]{process your feelings}</span><span class=\"fontstyle0\">, -2 to @UUID[Compendium.pasion-de-las-pasiones.playbooks-and-moves.Item.w4NFPGL4Kx8TtRfn]{express your love}.</span></p></li><li><p><span class=\"fontstyle0\">Cautious: +1 to @UUID[Compendium.pasion-de-las-pasiones.playbooks-and-moves.Item.iev5oXkeRFpO0Mgi]{spot something out of place}, -2 to @UUID[Compendium.pasion-de-las-pasiones.playbooks-and-moves.Item.ZG3GSRjBqIiTmB0Z]{act with desperation}.</span></p></li></ul><h2>Meltdown</h2><p><span class=\"fontstyle0\">The ungrateful whelps take and take. It's time to cut off the worms leeching off of you. You put them in line and show them how grateful they should be. Maybe you throw them out onto the<br />street and let them work for a change. Maybe you make public changes to your estate and show where your favor lies. Tomorrow you'll find yourself alone...but tonight you'll show them what it is to live without your protection and generosity.</span></p><h2>Last Time On</h2><p>At the beginning of each episode, choose one from the list below and cross it off. Once all are gone, it's time for the series finale.</p><ul><li><p><span class=\"fontstyle0\">You manipulated your name onto a lease, contract, or deed.</span></p></li><li><p><span class=\"fontstyle0\">You comforted someone in their time of need and meant it</span></p></li><li><p><span class=\"fontstyle0\">You handed someone a weapon with whispers of encouragement.</span></p></li><li><p><span class=\"fontstyle0\">You shouted someone down and left them distraught.</span></p></li><li><p><span class=\"fontstyle0\">You used your resources to buy someone out of a bad spot.</span></p></li><li><p><span class=\"fontstyle0\">You called in a favor but nobody came to your aid.</span></p></li><li><p><span class=\"fontstyle0\">You showed your deep, hidden feelings to someone you shouldn't have</span> <br style=\"font-style:normal;font-variant:normal;font-weight:normal;letter-spacing:normal;line-height:normal;orphans:2;text-align:-webkit-auto;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-size-adjust:auto;-webkit-text-stroke-width:0px\" /></p></li></ul><h2>Your Network</h2><h3>@UUID[Compendium.pasion-de-las-pasiones.playbooks-and-moves.Item.CuWS2El45EDr569i]{Your Network}</h3><p>Choose two Schemes on which your network has been working. Tell everyone the Schemes you've chosen. You may not have more than two Schemes at a time, but you may halt one and begin a new one at the beginning of any session.</p><ul><li><strong>Seize Property</strong>. Choose a known property or valuable object. You have someone keeping an eye on it full time. When it changes hands, you know. </li><li><strong>Opportunity</strong>. Choose someone who has, in your opinion, wronged you. Your network will let you know immediately when they are alone. </li><li><strong>Protection</strong>. Choose a character or thing your network protects. They keep them safe from death and serious harm as long as they are under your protection.</li><li><strong>Bring Them Together</strong>. Choose two characters. You convinced society that they belong and are together. When they are intimate with others, you learn of it. </li><li> <strong>Keep Them Apart</strong>. Choose two characters. Through your machinations, you are keeping them apart. When they make plans to meet, you learn of them.</li></ul><h2>Moves</h2><p><span class=\"fontstyle0\">CHOOSE TWO.</span><br style=\"font-style:normal;font-variant:normal;font-weight:normal;letter-spacing:normal;line-height:normal;orphans:2;text-align:-webkit-auto;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;-webkit-text-size-adjust:auto;-webkit-text-stroke-width:0px\" /></p><h3>@UUID[Compendium.pasion-de-las-pasiones.playbooks-and-moves.Item.T0VZ8PAz1POrA1Ch]{Into the Lion's Den}</h3><p>When you arrive at someone's doorstep to meet with them in good faith, tell them you are here to deal under the rules of decency—while you are in their abode, neither of you can attack, steal from, record, or otherwise physically act against the other. If they admit you, they clear a <em>condition</em>. After they admit you, if they are an NPC, they must follow the rules. If a PC (either La Doña or the other party) breaks these rules, then they can no longer take +1 for the questions on any moves until they are forgiven or the session ends.</p><p></p><h3>@UUID[Compendium.pasion-de-las-pasiones.playbooks-and-moves.Item.3kjWPv0fayWjwKZm]{You Did What?}</h3><p>Add the question \"Are you taking advantage of someone's shame?\" as a playbook question. You may choose which playbook question to use each time you roll.</p><p></p><h3>@UUID[Compendium.pasion-de-las-pasiones.playbooks-and-moves.Item.FOfaENDyASNUGlzJ]{Tell Me Everything}</h3><p>When you offer to take the burden of someone's guilt, ask them if they accept or reject your advice. If they accept your advice and follow it, they clear a <em>condition</em>. If they reject your advice or fail to follow it, they mark a <em>condition</em>.</p><p></p>",
+    "slug": "la-dona",
+    "actorType": "character",
+    "stats": {},
+    "statsDetail": "",
+    "attributes": {
+      "questiondona": {
+        "label": "Your Question",
+        "type": "LongText",
+        "value": "",
+        "choices": [
+          {
+            "value": "<p>Are you keeping your hands clean?</p>",
+            "options": {}
+          }
+        ],
+        "custom": false,
+        "path": "attributes",
+        "description": ""
+      },
+      "apparencedona": {
+        "label": "Look",
+        "type": "LongText",
+        "value": "",
+        "choices": [],
+        "custom": false,
+        "path": "attributes"
+      },
+      "relationdona": {
+        "label": "Relationships",
+        "type": "LongText",
+        "value": "",
+        "choices": [
+          {
+            "value": "<ul><li><p>__________ is someone you've sparred with for a very long time.</p></li><li><p> __________ is like a broken little bird you take care of.</p></li></ul>",
+            "options": {}
+          }
+        ],
+        "custom": false,
+        "path": "attributes",
+        "description": ""
+      },
+      "reseau": {
+        "label": "Your Network",
+        "type": "LongText",
+        "value": "",
+        "choices": [],
+        "custom": false,
+        "path": "attributes"
+      },
+      "etatsdona": {
+        "label": "Conditions",
+        "type": "ListMany",
+        "options": {
+          "0": {
+            "label": "Chiding: +1 to accuse someone of lying, -2 to strike out",
+            "value": false
+          },
+          "1": {
+            "label": "Righteous: +1 to demand what you deserve, -2 to manipulate a superior",
+            "value": false
+          },
+          "2": {
+            "label": "Ruminative: +1 to process your feelings out loud, -2 to express your love passionately.",
+            "value": false
+          },
+          "3": {
+            "label": "Cautious: +1 to spot something out of place, -2 to act with desperation",
+            "value": false
+          }
+        },
+        "choices": [],
+        "custom": false,
+        "path": "attributes"
+      },
+      "episodesdona": {
+        "label": "Last Time On",
+        "type": "ListMany",
+        "options": {
+          "0": {
+            "label": "You manipulated your name onto a lease, contract, or deed.",
+            "value": false
+          },
+          "1": {
+            "label": "You comforted someone in their time of need and meant it",
+            "value": false
+          },
+          "2": {
+            "label": "You handed someone a weapon with whispers of encouragement",
+            "value": false
+          },
+          "3": {
+            "label": "You shouted someone down and left them distraught",
+            "value": false
+          },
+          "4": {
+            "label": "You used your resources to buy someone out of a bad spot",
+            "value": false
+          },
+          "5": {
+            "label": "You called in a favor but nobody came to your aid",
+            "value": false
+          },
+          "6": {
+            "label": "You showed your deep, hidden feelings to someone you shouldn't have",
+            "value": false
+          }
+        },
+        "choices": [],
+        "custom": false,
+        "path": "attributes"
+      }
+    },
+    "choiceSets": [
+      {
+        "title": "Thugs",
+        "desc": "",
+        "type": "multi",
+        "repeatable": true,
+        "choices": [
+          {
+            "uuid": "Compendium.pasion-de-las-pasiones.playbooks-and-moves.Item.CuWS2El45EDr569i",
+            "img": "modules/pasion-de-las-pasiones/images/icons/dona.webp",
+            "granted": false,
+            "advancement": 0
+          }
+        ],
+        "grantOn": 0,
+        "granted": false,
+        "advancement": 0
+      },
+      {
+        "title": "",
+        "desc": "CHOOSE ONE.",
+        "type": "multi",
+        "repeatable": false,
+        "choices": [
+          {
+            "img": "modules/pasion-de-las-pasiones/images/icons/dona.webp",
+            "uuid": "Compendium.pasion-de-las-pasiones.playbooks-and-moves.Item.T0VZ8PAz1POrA1Ch",
+            "granted": false,
+            "advancement": 0
+          },
+          {
+            "uuid": "Compendium.pasion-de-las-pasiones.playbooks-and-moves.Item.3kjWPv0fayWjwKZm",
+            "img": "modules/pasion-de-las-pasiones/images/icons/dona.webp",
+            "granted": false,
+            "advancement": 0
+          },
+          {
+            "uuid": "Compendium.pasion-de-las-pasiones.playbooks-and-moves.Item.FOfaENDyASNUGlzJ",
+            "img": "modules/pasion-de-las-pasiones/images/icons/dona.webp",
+            "granted": false,
+            "advancement": 0
+          }
+        ],
+        "grantOn": 1,
+        "granted": false,
+        "advancement": 0
+      }
+    ]
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "NCcxUpA1X43TucQV": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pbta",
+    "systemVersion": "1.1.13",
+    "createdTime": 1739016922969,
+    "modifiedTime": 1739048442905,
+    "lastModifiedBy": "NCcxUpA1X43TucQV"
+  },
+  "_key": "!items!A7t8ZxEJMSZQ7ClY"
+}

@@ -1,0 +1,32 @@
+name: Release
+# Push a tag such as v2.1.0 to publish module.json + module.zip as a GitHub release.
+on:
+  push:
+    tags: ["v*"]
+permissions:
+  contents: write
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: 22 }
+      - run: npm ci
+      - run: npm run lang:check
+      - run: npm run pack
+      - name: Stamp version and URLs
+        run: |
+          jq --arg v "${GITHUB_REF_NAME#v}" --arg repo "$GITHUB_REPOSITORY" --arg tag "$GITHUB_REF_NAME" '
+            .version = $v
+            | .manifest = "https://github.com/\($repo)/releases/latest/download/module.json"
+            | .download = "https://github.com/\($repo)/releases/download/\($tag)/module.zip"
+          ' module.json > module.stamped.json
+          mv module.stamped.json module.json
+      - name: Build module.zip
+        run: zip -r module.zip module.json pasiondelaspasiones.js scripts lang translations styles images packs
+      - uses: softprops/action-gh-release@v2
+        with:
+          files: |
+            module.json
+            module.zip

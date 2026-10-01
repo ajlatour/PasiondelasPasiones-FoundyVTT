@@ -1,0 +1,169 @@
+{
+  "name": "La Belleza",
+  "type": "playbook",
+  "_id": "NPy65iwBTOsRuliT",
+  "img": "modules/pasion-de-las-pasiones/images/icons/belleza.webp",
+  "system": {
+    "description": "<p>The center of attention. Flirtatious, luxurious, and gorgeous. Hard to pin down, but the master of the grand entrance.</p><h2>Name</h2><p><span class=\"fontstyle0\">Choose a name from one of these lists, or make up your own:</span></p><ul><li><p><span class=\"fontstyle1\">Constanza, Marcela, Soraya, Regina, Verónica.</span></p></li><li><p><span class=\"fontstyle1\">Armando, Guillermo, Rafael, Rolando, Vicente</span></p></li></ul><h2>Look</h2><p>Choose at least one option from each list:</p><ul><li><p>Luxurious hair, silky hair, voluminous hairstyle, messy hair.</p></li><li><p>Sly eyes, flirtatious eyes, doe eyes, fiery eyes.</p></li><li><p>Designer clothes, provocative outfit, haute couture clothes, city clothes.</p></li></ul><h2>Your Question</h2><ul><li><p>Are you the center of attention?</p></li></ul><h2>Relationships</h2><ul><li><p>You flirt with __________, a good source of entertainment you like to keep on hand.</p></li><li><p>When you really need to let loose, you go find __________.</p></li></ul><h2>Conditions</h2><ul><li><p>Zealous: +1 to @UUID[Compendium.pasion-de-las-pasiones.playbooks-and-moves.Item.TcWPAx8tGRie1Sb6]{demand what you deserve}, -2 to @UUID[Compendium.pasion-de-las-pasiones.playbooks-and-moves.Item.ZG3GSRjBqIiTmB0Z]{act with desperation}.</p></li><li><p>Raging: +1 to @UUID[Compendium.pasion-de-las-pasiones.playbooks-and-moves.Item.C9GvWd6IY5KcAgSI]{strike out}, -2 to @UUID[Compendium.pasion-de-las-pasiones.playbooks-and-moves.Item.iev5oXkeRFpO0Mgi]{spot something out of place}.</p></li><li><p>Lustful: +1 to @UUID[Compendium.pasion-de-las-pasiones.playbooks-and-moves.Item.w4NFPGL4Kx8TtRfn]{express your love}, -2 to @UUID[Compendium.pasion-de-las-pasiones.playbooks-and-moves.Item.wQO9aJp5sChjcoUG]{process your feelings}.</p></li><li><p>Underhanded: +1 to @UUID[Compendium.pasion-de-las-pasiones.playbooks-and-moves.Item.3EdfFL5zzGRV5Oxt]{manipulate a superior}, -2 to @UUID[Compendium.pasion-de-las-pasiones.playbooks-and-moves.Item.bJci1vpORz3rIoW4]{accuse someone of lying}.</p></li></ul><h2>Meltdown</h2><p>They think they can spurn you, treat you like trash? Not anymore. You throw yourself at the object of your greatest affection. You confess how long you've needed them and how desperately. Maybe you show them how good they could have it. Maybe you destroy something beautiful so they can only see you. Tomorrow they'll see you through eyes that know your fragility...but tonight you'll be without walls.</p><h2>Last Time On</h2><p>At the beginning of each episode, choose one from the list below and cross it off. Once all are gone, it's time for the series finale.</p><ul><li><p>In the arms of another character, you spotted something you want to seize.</p></li><li><p>You signed a contract with a flourish-filled signature.</p></li><li><p>You crashed into something with your gorgeous, gleaming car.</p></li><li><p>You befriended someone dangerous and passionate.</p></li><li><p>In a fit of rage, you threw your glass of wine in a character's face.</p></li><li><p>You fell into the arms of a lover of lower standing.</p></li><li><p>You slipped something into somebody's possession without them knowing</p></li></ul><p></p><h2>Moves</h2><p><span class=\"fontstyle0\">CHOOSE TWO</span>.</p><p></p><h3>@UUID[Compendium.pasion-de-las-pasiones.playbooks-and-moves.Item.QwJEGX9960x06W4B]{Hard to Pin Down}</h3><p>When a PC @UUID[Compendium.pasion-de-las-pasiones.playbooks-and-moves.Item.w4NFPGL4Kx8TtRfn]{expresses their love passionately} to you, @UUID[Compendium.pasion-de-las-pasiones.playbooks-and-moves.Item.bJci1vpORz3rIoW4]{accuses you of lying}, or tries to @UUID[Compendium.pasion-de-las-pasiones.playbooks-and-moves.Item.iev5oXkeRFpO0Mgi]{spot something out of place} about you, you can interfere beforehand with their move by remaining aloof or coy. Roll with the questions:</p><ul><li><p>Are they being cruel?</p></li><li><p>Are you in public?</p></li></ul><p>On a hit (7+), they take -2 on their own roll. On a 10+, they also reveal their true feelings about you. On a miss (6-), they can choose to either get a 10+ on their own roll, or make you mark a <em>condition</em>.</p><p></p><h3>@UUID[Compendium.pasion-de-las-pasiones.playbooks-and-moves.Item.NCQ5VhpcPRkHrZm7]{Big Entrance}</h3><p>When you enter a room ready to make a scene, roll 2d6 and add +1 for each person in the room with whom you've been intimate (max +4).</p><p>On a hit (7+), anyone you've been intimate with is surprised, frightened, or confused.</p><p>On a 10+, you've seized control of the room; take +1 ongoing as long as you keep attention on yourself and don't let anyone stand in your way.</p><p>On a miss (6-), they don't give you the reaction you wanted; mark a <em>condition</em> and choose to either blurt out a secret or pour out your emotions for all to see.</p><p></p><h3>@UUID[Compendium.pasion-de-las-pasiones.playbooks-and-moves.Item.wW7XXQDL4KnTFs2x]{Up, Boy}</h3><p>When you @UUID[Compendium.pasion-de-las-pasiones.playbooks-and-moves.Item.w4NFPGL4Kx8TtRfn]{express your love passionately} or @UUID[Compendium.pasion-de-las-pasiones.playbooks-and-moves.Item.TcWPAx8tGRie1Sb6]{demand what you deserve} by riling someone up while remaining aloof, add the question “Are you physically touching them?” to the list of questions for the move.</p><p></p><h3>@UUID[Compendium.pasion-de-las-pasiones.playbooks-and-moves.Item.12QYcohvLsJviIyH]{Ice Queen}</h3><p>When you reject someone immediately after @UUID[Compendium.pasion-de-las-pasiones.playbooks-and-moves.Item.w4NFPGL4Kx8TtRfn]{expressing your love passionately}, you can either clear a <em>condition</em>, or make them mark a <em>condition</em>.</p>",
+    "slug": "la-belleza",
+    "actorType": "character",
+    "stats": {},
+    "statsDetail": "",
+    "attributes": {
+      "questionbelleza": {
+        "label": "Your Question",
+        "type": "LongText",
+        "value": "",
+        "choices": [
+          {
+            "value": "<p>Are you the center of attention?</p>",
+            "options": {}
+          }
+        ],
+        "custom": false,
+        "path": "attributes",
+        "description": ""
+      },
+      "apparencebelleza": {
+        "label": "Look",
+        "type": "LongText",
+        "value": "",
+        "choices": [],
+        "custom": false,
+        "path": "attributes"
+      },
+      "relationbelleza": {
+        "label": "Relationships",
+        "type": "LongText",
+        "value": "",
+        "choices": [
+          {
+            "value": "<ul><li><p>You flirt with __________, a good source of entertainment you like to keep on hand. </p></li><li><p>When you really need to let loose, you go find __________.</p></li></ul>",
+            "options": {}
+          }
+        ],
+        "custom": false,
+        "path": "attributes",
+        "description": ""
+      },
+      "etatsbelleza": {
+        "label": "Conditions",
+        "type": "ListMany",
+        "options": {
+          "0": {
+            "label": "Zealous: +1 to demand what you deserve, -2 to act with desperation.",
+            "value": false
+          },
+          "1": {
+            "label": "Raging: +1 to strike out, -2 to spot something out of place.",
+            "value": false
+          },
+          "2": {
+            "label": "Lustful: +1 to express your love passionately, -2 to process your feelings out loud",
+            "value": false
+          },
+          "3": {
+            "label": "Underhanded: +1 to manipulate a superior, -2 to accuse someone of lying.",
+            "value": false
+          }
+        },
+        "choices": [],
+        "custom": false,
+        "path": "attributes"
+      },
+      "episodesbelleza": {
+        "label": "Last Time On",
+        "type": "ListMany",
+        "options": {
+          "0": {
+            "label": "In the arms of another character, you spotted something you want to seize",
+            "value": false
+          },
+          "1": {
+            "label": "You signed a contract with a flourish-filled signature.",
+            "value": false
+          },
+          "2": {
+            "label": "You crashed into something with your gorgeous, gleaming car.",
+            "value": false
+          },
+          "3": {
+            "label": "You befriended someone dangerous and passionate.",
+            "value": false
+          },
+          "4": {
+            "label": "In a fit of rage, you threw your glass of wine in a character's face.",
+            "value": false
+          },
+          "5": {
+            "label": "You fell into the arms of a lover of lower standing.",
+            "value": false
+          },
+          "6": {
+            "label": "You slipped something into somebody's possession without them knowing",
+            "value": false
+          }
+        },
+        "choices": [],
+        "custom": false,
+        "path": "attributes"
+      }
+    },
+    "choiceSets": [
+      {
+        "title": "",
+        "desc": "CHOOSE TWO.",
+        "grantOn": 1,
+        "advancement": 0,
+        "repeatable": false,
+        "choices": [
+          {
+            "uuid": "Compendium.pasion-de-las-pasiones.playbooks-and-moves.Item.QwJEGX9960x06W4B",
+            "img": "modules/pasion-de-las-pasiones/images/icons/belleza.webp",
+            "granted": false,
+            "advancement": 0
+          },
+          {
+            "uuid": "Compendium.pasion-de-las-pasiones.playbooks-and-moves.Item.NCQ5VhpcPRkHrZm7",
+            "img": "modules/pasion-de-las-pasiones/images/icons/belleza.webp",
+            "granted": false,
+            "advancement": 0
+          },
+          {
+            "uuid": "Compendium.pasion-de-las-pasiones.playbooks-and-moves.Item.wW7XXQDL4KnTFs2x",
+            "img": "modules/pasion-de-las-pasiones/images/icons/belleza.webp",
+            "granted": false,
+            "advancement": 0
+          },
+          {
+            "uuid": "Compendium.pasion-de-las-pasiones.playbooks-and-moves.Item.12QYcohvLsJviIyH",
+            "img": "modules/pasion-de-las-pasiones/images/icons/belleza.webp",
+            "granted": false,
+            "advancement": 0
+          }
+        ],
+        "type": "multi",
+        "granted": false
+      }
+    ]
+  },
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "NCcxUpA1X43TucQV": 3
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pbta",
+    "systemVersion": "1.1.13",
+    "createdTime": 1739016905164,
+    "modifiedTime": 1739048327466,
+    "lastModifiedBy": "NCcxUpA1X43TucQV"
+  },
+  "_key": "!items!NPy65iwBTOsRuliT"
+}

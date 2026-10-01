@@ -1,0 +1,52 @@
+{
+  "name": "Process Your Feelings Out Loud",
+  "type": "move",
+  "img": "modules/pasion-de-las-pasiones/images/icons/base.webp",
+  "system": {
+    "description": "<p>When you process your feelings out loud, ask each member of the audience if they are rooting for you, and roll the dice. For each member who roots for you, gain +1 on the roll (the maximum bonus is +3).</p>",
+    "moveType": "basic",
+    "rollFormula": "",
+    "moveResults": {
+      "success": {
+        "key": "system.moveResults.success.value",
+        "label": "10+",
+        "value": "<p>Choose one of the following options:</p><ul><li><p>The audience reveals a crucial event going on outside of view.</p></li><li><p>The audience tells you how you might find love with a partner of their choosing.</p></li><li><p>The audience tells you how to get [someone] to [do something].</p></li></ul><p>Take +1 ongoing while following up on this information. Set the scene for a moment where you immediately follow that information.</p>"
+      },
+      "partial": {
+        "key": "system.moveResults.partial.value",
+        "label": "7-9",
+        "value": "<p>Choose one of the following options:</p><ul><li><p>The audience reveals a crucial event going on outside of view.</p></li><li><p>The audience tells you how you might find love with a partner of their choosing.</p></li><li><p>The audience tells you how to get [someone] to [do something].</p></li></ul><p>Take +1 ongoing while following up on this information.</p>"
+      },
+      "failure": {
+        "key": "system.moveResults.failure.value",
+        "label": "Miss",
+        "value": ""
+      }
+    },
+    "uses": 0,
+    "rollType": "prompt",
+    "rollMod": 0,
+    "actorType": "character",
+    "choices": ""
+  },
+  "effects": [],
+  "folder": "KssWIBUVVbQLaPOQ",
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pbta",
+    "systemVersion": "1.1.13",
+    "createdTime": 1739015924733,
+    "modifiedTime": 1739017402260,
+    "lastModifiedBy": "NCcxUpA1X43TucQV"
+  },
+  "_id": "wQO9aJp5sChjcoUG",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "NCcxUpA1X43TucQV": 3
+  },
+  "_key": "!items!wQO9aJp5sChjcoUG"
+}

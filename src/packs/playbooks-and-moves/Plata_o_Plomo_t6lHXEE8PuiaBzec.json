@@ -1,0 +1,52 @@
+{
+  "folder": "lUOlEoysyo51AF99",
+  "name": "Plata o Plomo",
+  "type": "move",
+  "img": "modules/pasion-de-las-pasiones/images/icons/jefe.webp",
+  "system": {
+    "description": "<p>When you @UUID[Compendium.pasion-de-las-pasiones.playbooks-and-moves.Item.TcWPAx8tGRie1Sb6]{demand what you deserve} and you have the physical upper hand, they mark an additional <em>condition</em> if they refuse and escalate.</p>",
+    "moveType": "playbook",
+    "rollFormula": "",
+    "moveResults": {
+      "success": {
+        "key": "system.moveResults.success.value",
+        "label": "10+",
+        "value": ""
+      },
+      "partial": {
+        "key": "system.moveResults.partial.value",
+        "label": "7-9",
+        "value": ""
+      },
+      "failure": {
+        "key": "system.moveResults.failure.value",
+        "label": "Miss",
+        "value": ""
+      }
+    },
+    "uses": 0,
+    "rollType": "",
+    "rollMod": 0,
+    "actorType": "character",
+    "choices": ""
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pbta",
+    "systemVersion": "1.1.13",
+    "createdTime": 1739015917075,
+    "modifiedTime": 1739047875476,
+    "lastModifiedBy": "NCcxUpA1X43TucQV"
+  },
+  "_id": "t6lHXEE8PuiaBzec",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "NCcxUpA1X43TucQV": 3
+  },
+  "_key": "!items!t6lHXEE8PuiaBzec"
+}

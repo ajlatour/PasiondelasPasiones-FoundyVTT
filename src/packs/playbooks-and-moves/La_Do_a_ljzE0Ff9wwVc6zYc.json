@@ -1,0 +1,22 @@
+{
+  "name": "La Doña",
+  "sorting": "a",
+  "folder": null,
+  "type": "Item",
+  "_id": "ljzE0Ff9wwVc6zYc",
+  "sort": 100000,
+  "color": null,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pbta",
+    "systemVersion": "1.1.13",
+    "createdTime": 1739015917017,
+    "modifiedTime": 1739015917017,
+    "lastModifiedBy": "NCcxUpA1X43TucQV"
+  },
+  "description": "",
+  "_key": "!folders!ljzE0Ff9wwVc6zYc"
+}

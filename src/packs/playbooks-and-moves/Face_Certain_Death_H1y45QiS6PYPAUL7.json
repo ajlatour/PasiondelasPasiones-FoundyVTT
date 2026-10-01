@@ -1,0 +1,52 @@
+{
+  "folder": "Er4C3XwCU6OlpeOT",
+  "name": "Face Certain Death",
+  "type": "move",
+  "img": "modules/pasion-de-las-pasiones/images/icons/mort.webp",
+  "system": {
+    "description": "<p>When you face certain death, roll the dice, adding the number of your <em>conditions</em> marked.</p>",
+    "moveType": "secondaires",
+    "rollFormula": "",
+    "moveResults": {
+      "success": {
+        "key": "system.moveResults.success.value",
+        "label": "10+",
+        "value": "<p>The audience chooses one option from the following list. Once an option has been chosen, it is crossed off; nobody may choose it again.</p><ul><li><p>Someone (you choose) saves you just in time.</p></li><li><p>Take a distinctive, but sexy, scar.</p></li><li><p>Gain a permanent debility (a limp, an eyepatch, etc.).</p></li><li><p>Become a twisted, evil version of yourself.</p></li><li><p>Suffer amnesia.</p></li><li><p>Return with a new face. ӹ Wind up in a (possibly) long term coma.</p></li><li><p>Wind up actually dead. (This option may always be chosen.)</p></li></ul>"
+      },
+      "partial": {
+        "key": "system.moveResults.partial.value",
+        "label": "7-9",
+        "value": "<p>Choose one option from the following list. Once an option has been chosen, it is crossed off; nobody may choose it again.</p><ul><li><p>Someone (you choose) saves you just in time.</p></li><li><p>Take a distinctive, but sexy, scar.</p></li><li><p>Gain a permanent debility (a limp, an eyepatch, etc.).</p></li><li><p>Become a twisted, evil version of yourself.</p></li><li><p>Suffer amnesia.</p></li><li><p>Return with a new face. ӹ Wind up in a (possibly) long term coma.</p></li><li><p>Wind up actually dead. (This option may always be chosen.)</p></li></ul>"
+      },
+      "failure": {
+        "key": "system.moveResults.failure.value",
+        "label": "Miss",
+        "value": ""
+      }
+    },
+    "uses": 0,
+    "rollType": "prompt",
+    "rollMod": 0,
+    "actorType": "character",
+    "choices": ""
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pbta",
+    "systemVersion": "1.1.13",
+    "createdTime": 1739015924733,
+    "modifiedTime": 1739017436023,
+    "lastModifiedBy": "NCcxUpA1X43TucQV"
+  },
+  "_id": "H1y45QiS6PYPAUL7",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "NCcxUpA1X43TucQV": 3
+  },
+  "_key": "!items!H1y45QiS6PYPAUL7"
+}

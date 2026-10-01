@@ -1,0 +1,52 @@
+{
+  "folder": "b97nUX588nVGMjL4",
+  "name": "Grand Gesture",
+  "type": "move",
+  "img": "modules/pasion-de-las-pasiones/images/icons/caballero.webp",
+  "system": {
+    "description": "<p>When you @UUID[Compendium.pasion-de-las-pasiones.playbooks-and-moves.Item.w4NFPGL4Kx8TtRfn]{express your love passionately}, add the question “Are you making this absurdly elaborate and excessive?” to the list of questions. If your target tells you they love you or gives in to your advances, clear a <em>condition</em>.</p>",
+    "moveType": "playbook",
+    "rollFormula": "",
+    "moveResults": {
+      "success": {
+        "key": "system.moveResults.success.value",
+        "label": "10+",
+        "value": ""
+      },
+      "partial": {
+        "key": "system.moveResults.partial.value",
+        "label": "7-9",
+        "value": ""
+      },
+      "failure": {
+        "key": "system.moveResults.failure.value",
+        "label": "Miss",
+        "value": ""
+      }
+    },
+    "uses": 0,
+    "rollType": "",
+    "rollMod": 0,
+    "actorType": "character",
+    "choices": ""
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pbta",
+    "systemVersion": "1.1.13",
+    "createdTime": 1739015917075,
+    "modifiedTime": 1739045557347,
+    "lastModifiedBy": "NCcxUpA1X43TucQV"
+  },
+  "_id": "6ppaFljuWNHLcskx",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "NCcxUpA1X43TucQV": 3
+  },
+  "_key": "!items!6ppaFljuWNHLcskx"
+}

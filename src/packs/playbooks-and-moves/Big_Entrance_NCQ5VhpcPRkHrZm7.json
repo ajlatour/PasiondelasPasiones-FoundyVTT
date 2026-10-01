@@ -1,0 +1,52 @@
+{
+  "folder": "iLKMNKlU70qfYpcS",
+  "name": "Big Entrance",
+  "type": "move",
+  "img": "modules/pasion-de-las-pasiones/images/icons/belleza.webp",
+  "system": {
+    "description": "<p>When you enter a room ready to make a scene, roll 2d6 and add +1 for each person in the room with whom you've been intimate (max +4).</p>",
+    "moveType": "playbook",
+    "rollFormula": "",
+    "moveResults": {
+      "success": {
+        "key": "system.moveResults.success.value",
+        "label": "10+",
+        "value": "<p>Anyone you've been intimate with is surprised, frightened, or confused.</p><p>You've seized control of the room; take +1 ongoing as long as you keep attention on yourself and don't let anyone stand in your way.</p>"
+      },
+      "partial": {
+        "key": "system.moveResults.partial.value",
+        "label": "7-9",
+        "value": "<p>Anyone you've been intimate with is surprised, frightened, or confused.</p>"
+      },
+      "failure": {
+        "key": "system.moveResults.failure.value",
+        "label": "Miss",
+        "value": "<p>They don't give you the reaction you wanted; mark a <em>condition</em> and choose to either blurt out a secret or pour out your emotions for all to see.</p>"
+      }
+    },
+    "uses": 0,
+    "rollType": "prompt",
+    "rollMod": 0,
+    "actorType": "character",
+    "choices": ""
+  },
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "coreVersion": "12.331",
+    "systemId": "pbta",
+    "systemVersion": "1.1.13",
+    "createdTime": 1739015917075,
+    "modifiedTime": 1739017821789,
+    "lastModifiedBy": "NCcxUpA1X43TucQV"
+  },
+  "_id": "NCQ5VhpcPRkHrZm7",
+  "sort": 0,
+  "ownership": {
+    "default": 0,
+    "NCcxUpA1X43TucQV": 3
+  },
+  "_key": "!items!NCQ5VhpcPRkHrZm7"
+}
