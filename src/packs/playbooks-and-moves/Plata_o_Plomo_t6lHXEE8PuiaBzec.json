@@ -1,10 +1,10 @@
 {
-  "folder": "b97nUX588nVGMjL4",
-  "name": "Grand Gesture",
+  "folder": "lUOlEoysyo51AF99",
+  "name": "Plata o Plomo",
   "type": "move",
-  "img": "modules/pasion-de-las-pasiones/images/icons/caballero.webp",
+  "img": "modules/pasion-de-las-pasiones/images/icons/jefe.webp",
   "system": {
-    "description": "<p>When you @UUID[Compendium.pasion-de-las-pasiones.moves.Item.w4NFPGL4Kx8TtRfn]{express your love passionately}, add the question “Are you making this absurdly elaborate and excessive?” to the list of questions. If your target tells you they love you or gives in to your advances, clear a <em>condition</em>.</p>",
+    "description": "<p>When you @UUID[Compendium.pasion-de-las-pasiones.playbooks-and-moves.Item.TcWPAx8tGRie1Sb6]{demand what you deserve} and you have the physical upper hand, they mark an additional <em>condition</em> if they refuse and escalate.</p>",
     "moveType": "playbook",
     "rollFormula": "",
     "moveResults": {
@@ -39,14 +39,14 @@
     "systemId": "pbta",
     "systemVersion": "1.1.13",
     "createdTime": 1739015917075,
-    "modifiedTime": 1739045557347,
+    "modifiedTime": 1739047875476,
     "lastModifiedBy": "NCcxUpA1X43TucQV"
   },
-  "_id": "6ppaFljuWNHLcskx",
+  "_id": "t6lHXEE8PuiaBzec",
   "sort": 0,
   "ownership": {
     "default": 0,
     "NCcxUpA1X43TucQV": 3
   },
-  "_key": "!items!6ppaFljuWNHLcskx"
+  "_key": "!items!t6lHXEE8PuiaBzec"
 }

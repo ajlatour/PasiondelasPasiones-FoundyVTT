@@ -4,7 +4,7 @@
   "type": "move",
   "img": "modules/pasion-de-las-pasiones/images/icons/belleza.webp",
   "system": {
-    "description": "<p>When a PC @UUID[Compendium.pasion-de-las-pasiones.moves.Item.w4NFPGL4Kx8TtRfn]{expresses their love passionately} to you, @UUID[Compendium.pasion-de-las-pasiones.moves.Item.bJci1vpORz3rIoW4]{accuses you of lying}, or tries to @UUID[Compendium.pasion-de-las-pasiones.moves.Item.iev5oXkeRFpO0Mgi]{spot something out of place} about you, you can interfere beforehand with their move by remaining aloof or coy. Roll with the questions:</p><ul><li><p>Are they being cruel?</p></li><li><p>Are you in public?</p></li></ul>",
+    "description": "<p>When a PC @UUID[Compendium.pasion-de-las-pasiones.playbooks-and-moves.Item.w4NFPGL4Kx8TtRfn]{expresses their love passionately} to you, @UUID[Compendium.pasion-de-las-pasiones.playbooks-and-moves.Item.bJci1vpORz3rIoW4]{accuses you of lying}, or tries to @UUID[Compendium.pasion-de-las-pasiones.playbooks-and-moves.Item.iev5oXkeRFpO0Mgi]{spot something out of place} about you, you can interfere beforehand with their move by remaining aloof or coy. Roll with the questions:</p><ul><li><p>Are they being cruel?</p></li><li><p>Are you in public?</p></li></ul>",
     "moveType": "playbook",
     "rollFormula": "",
     "moveResults": {

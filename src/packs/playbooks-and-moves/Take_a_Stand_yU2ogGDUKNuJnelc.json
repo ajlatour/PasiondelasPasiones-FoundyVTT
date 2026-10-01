@@ -11,12 +11,12 @@
       "success": {
         "key": "system.moveResults.success.value",
         "label": "10+",
-        "value": "<p>Hold 3. While you stand in their defense, you may spend hold one-for-one to:</p><ul><li>Protect them from an attack; take the hit instead of them.</li><li>Keep someone from leaving a room unless they go through you. </li><li><p>Take +1 on your next roll to @UUID[Compendium.pasion-de-las-pasiones.moves.Item.C9GvWd6IY5KcAgSI]{strike out} against someone who threatens harm.</p></li></ul>"
+        "value": "<p>Hold 3. While you stand in their defense, you may spend hold one-for-one to:</p><ul><li>Protect them from an attack; take the hit instead of them.</li><li>Keep someone from leaving a room unless they go through you. </li><li><p>Take +1 on your next roll to @UUID[Compendium.pasion-de-las-pasiones.playbooks-and-moves.Item.C9GvWd6IY5KcAgSI]{strike out} against someone who threatens harm.</p></li></ul>"
       },
       "partial": {
         "key": "system.moveResults.partial.value",
         "label": "7-9",
-        "value": "<p>Hold 1. While you stand in their defense, you may spend hold one-for-one to:</p><ul><li>Protect them from an attack; take the hit instead of them.</li><li>Keep someone from leaving a room unless they go through you. </li><li><p>Take +1 on your next roll to @UUID[Compendium.pasion-de-las-pasiones.moves.Item.C9GvWd6IY5KcAgSI]{strike out} against someone who threatens harm.</p></li></ul>"
+        "value": "<p>Hold 1. While you stand in their defense, you may spend hold one-for-one to:</p><ul><li>Protect them from an attack; take the hit instead of them.</li><li>Keep someone from leaving a room unless they go through you. </li><li><p>Take +1 on your next roll to @UUID[Compendium.pasion-de-las-pasiones.playbooks-and-moves.Item.C9GvWd6IY5KcAgSI]{strike out} against someone who threatens harm.</p></li></ul>"
       },
       "failure": {
         "key": "system.moveResults.failure.value",

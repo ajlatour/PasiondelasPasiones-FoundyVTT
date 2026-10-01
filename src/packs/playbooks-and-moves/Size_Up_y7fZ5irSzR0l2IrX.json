@@ -1,10 +1,10 @@
 {
-  "folder": "iLKMNKlU70qfYpcS",
-  "name": "Ice Queen",
+  "folder": "b97nUX588nVGMjL4",
+  "name": "Size Up",
   "type": "move",
-  "img": "modules/pasion-de-las-pasiones/images/icons/belleza.webp",
+  "img": "modules/pasion-de-las-pasiones/images/icons/caballero.webp",
   "system": {
-    "description": "<p>When you reject someone immediately after @UUID[Compendium.pasion-de-las-pasiones.moves.Item.w4NFPGL4Kx8TtRfn]{expressing your love passionately}, you can either clear a <em>condition</em>, or inflict a <em>condition</em> on them.</p>",
+    "description": "<p>When you try to @UUID[Compendium.pasion-de-las-pasiones.playbooks-and-moves.Item.iev5oXkeRFpO0Mgi]{spot something out of place}, ask one of these questions, even on a miss (6-):</p><ul><li>Where is the nearest weapon?</li><li>What are they trying to hide?</li><li>What's their way out?</li></ul>",
     "moveType": "playbook",
     "rollFormula": "",
     "moveResults": {
@@ -39,14 +39,14 @@
     "systemId": "pbta",
     "systemVersion": "1.1.13",
     "createdTime": 1739015917075,
-    "modifiedTime": 1739017832716,
+    "modifiedTime": 1739045561046,
     "lastModifiedBy": "NCcxUpA1X43TucQV"
   },
-  "_id": "12QYcohvLsJviIyH",
+  "_id": "y7fZ5irSzR0l2IrX",
   "sort": 0,
   "ownership": {
     "default": 0,
     "NCcxUpA1X43TucQV": 3
   },
-  "_key": "!items!12QYcohvLsJviIyH"
+  "_key": "!items!y7fZ5irSzR0l2IrX"
 }

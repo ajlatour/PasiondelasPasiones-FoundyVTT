@@ -1,10 +1,10 @@
 {
-  "folder": "iLKMNKlU70qfYpcS",
-  "name": "Up, Boy",
+  "folder": "lUOlEoysyo51AF99",
+  "name": "Bitter Rage",
   "type": "move",
-  "img": "modules/pasion-de-las-pasiones/images/icons/belleza.webp",
+  "img": "modules/pasion-de-las-pasiones/images/icons/jefe.webp",
   "system": {
-    "description": "<p>When you @UUID[Compendium.pasion-de-las-pasiones.moves.Item.w4NFPGL4Kx8TtRfn]{express your love passionately} or @UUID[Compendium.pasion-de-las-pasiones.moves.Item.TcWPAx8tGRie1Sb6]{demand what you deserve} by riling someone up while remaining aloof, add the question “Are you physically touching them?” to the list of questions for the move.</p>",
+    "description": "<p>While you have Raging marked, take an extra +1 to the bonus to @UUID[Compendium.pasion-de-las-pasiones.playbooks-and-moves.Item.C9GvWd6IY5KcAgSI]{strike out}. Furthermore, if it's a physical attack and you get a 10+, you may choose to immediately knock out the target.</p>",
     "moveType": "playbook",
     "rollFormula": "",
     "moveResults": {
@@ -39,14 +39,14 @@
     "systemId": "pbta",
     "systemVersion": "1.1.13",
     "createdTime": 1739015917075,
-    "modifiedTime": 1739017826942,
+    "modifiedTime": 1739047807585,
     "lastModifiedBy": "NCcxUpA1X43TucQV"
   },
-  "_id": "wW7XXQDL4KnTFs2x",
+  "_id": "IqbXaRSht9EGjost",
   "sort": 0,
   "ownership": {
     "default": 0,
     "NCcxUpA1X43TucQV": 3
   },
-  "_key": "!items!wW7XXQDL4KnTFs2x"
+  "_key": "!items!IqbXaRSht9EGjost"
 }

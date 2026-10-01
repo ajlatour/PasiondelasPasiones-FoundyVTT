@@ -1,10 +1,10 @@
 {
-  "folder": "lUOlEoysyo51AF99",
-  "name": "Bitter Rage",
+  "folder": "8qQFGLnYqcI00jiT",
+  "name": "Almost the Same",
   "type": "move",
-  "img": "modules/pasion-de-las-pasiones/images/icons/jefe.webp",
+  "img": "modules/pasion-de-las-pasiones/images/icons/gemelo.webp",
   "system": {
-    "description": "<p>While you have Raging marked, take an extra +1 to the bonus to @UUID[Compendium.pasion-de-las-pasiones.moves.Item.C9GvWd6IY5KcAgSI]{strike out}. Furthermore, if it's a physical attack and you get a 10+, you may choose to immediately knock out the target.</p>",
+    "description": "<p>When you @UUID[Compendium.pasion-de-las-pasiones.playbooks-and-moves.Item.w4NFPGL4Kx8TtRfn]{express your love passionately} to someone that your twin loves, treat a miss (6-) as a 7-9, and a 7-9 as a 10+.</p>",
     "moveType": "playbook",
     "rollFormula": "",
     "moveResults": {
@@ -39,14 +39,14 @@
     "systemId": "pbta",
     "systemVersion": "1.1.13",
     "createdTime": 1739015917075,
-    "modifiedTime": 1739047807585,
+    "modifiedTime": 1739047527983,
     "lastModifiedBy": "NCcxUpA1X43TucQV"
   },
-  "_id": "IqbXaRSht9EGjost",
+  "_id": "Uw7HZwTQH6CoSLoI",
   "sort": 0,
   "ownership": {
     "default": 0,
     "NCcxUpA1X43TucQV": 3
   },
-  "_key": "!items!IqbXaRSht9EGjost"
+  "_key": "!items!Uw7HZwTQH6CoSLoI"
 }

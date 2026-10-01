@@ -62,21 +62,9 @@
       "flags": {}
     },
     {
-      "name": "moves",
-      "label": "Basic and Peripheral Moves",
-      "path": "packs/moves",
-      "type": "Item",
-      "ownership": {
-        "PLAYER": "OBSERVER",
-        "ASSISTANT": "OWNER"
-      },
-      "system": "pbta",
-      "flags": {}
-    },
-    {
-      "name": "playbooks",
-      "label": "Playbooks",
-      "path": "packs/playbooks",
+      "name": "playbooks-and-moves",
+      "label": "Playbooks and Moves",
+      "path": "packs/playbooks-and-moves",
       "type": "Item",
       "ownership": {
         "PLAYER": "OBSERVER",

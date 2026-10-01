@@ -10,12 +10,12 @@
       "success": {
         "key": "system.moveResults.success.value",
         "label": "10+",
-        "value": "<p>Choose two options from the following list.</p><ul><li><p>You are right despite what the audience has already seen.</p></li><li><p>They must admit their falsehood or mark a <em>condition</em>.</p></li><li><p>They're surprised, scared, or flustered; they must @UUID[Compendium.pasion-de-las-pasiones.moves.Item.ZG3GSRjBqIiTmB0Z]{act with desperation} before they can act against you.</p></li></ul>"
+        "value": "<p>Choose two options from the following list.</p><ul><li><p>You are right despite what the audience has already seen.</p></li><li><p>They must admit their falsehood or mark a <em>condition</em>.</p></li><li><p>They're surprised, scared, or flustered; they must @UUID[Compendium.pasion-de-las-pasiones.playbooks-and-moves.Item.ZG3GSRjBqIiTmB0Z]{act with desperation} before they can act against you.</p></li></ul>"
       },
       "partial": {
         "key": "system.moveResults.partial.value",
         "label": "7-9",
-        "value": "<p>Choose one option from the following list.</p><ul><li><p>You are right despite what the audience has already seen.</p></li><li><p>They must admit their falsehood or mark a <em>condition</em>.</p></li><li><p>They're surprised, scared, or flustered; they must @UUID[Compendium.pasion-de-las-pasiones.moves.Item.ZG3GSRjBqIiTmB0Z]{act with desperation} before they can act against you.</p></li></ul>"
+        "value": "<p>Choose one option from the following list.</p><ul><li><p>You are right despite what the audience has already seen.</p></li><li><p>They must admit their falsehood or mark a <em>condition</em>.</p></li><li><p>They're surprised, scared, or flustered; they must @UUID[Compendium.pasion-de-las-pasiones.playbooks-and-moves.Item.ZG3GSRjBqIiTmB0Z]{act with desperation} before they can act against you.</p></li></ul>"
       },
       "failure": {
         "key": "system.moveResults.failure.value",

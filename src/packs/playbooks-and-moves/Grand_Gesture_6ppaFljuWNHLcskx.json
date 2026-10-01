@@ -1,10 +1,10 @@
 {
-  "folder": "lUOlEoysyo51AF99",
-  "name": "Dangerous Passion",
+  "folder": "b97nUX588nVGMjL4",
+  "name": "Grand Gesture",
   "type": "move",
-  "img": "modules/pasion-de-las-pasiones/images/icons/jefe.webp",
+  "img": "modules/pasion-de-las-pasiones/images/icons/caballero.webp",
   "system": {
-    "description": "<p>When you angrily @UUID[Compendium.pasion-de-las-pasiones.moves.Item.w4NFPGL4Kx8TtRfn]{express your love}, you may mark a <em>condition</em> to move a miss (6-) to a 7-9, or a 7-9 to a 10+.</p>",
+    "description": "<p>When you @UUID[Compendium.pasion-de-las-pasiones.playbooks-and-moves.Item.w4NFPGL4Kx8TtRfn]{express your love passionately}, add the question “Are you making this absurdly elaborate and excessive?” to the list of questions. If your target tells you they love you or gives in to your advances, clear a <em>condition</em>.</p>",
     "moveType": "playbook",
     "rollFormula": "",
     "moveResults": {
@@ -39,14 +39,14 @@
     "systemId": "pbta",
     "systemVersion": "1.1.13",
     "createdTime": 1739015917075,
-    "modifiedTime": 1739047840784,
+    "modifiedTime": 1739045557347,
     "lastModifiedBy": "NCcxUpA1X43TucQV"
   },
-  "_id": "rVsO4EFhqhTGMpqR",
+  "_id": "6ppaFljuWNHLcskx",
   "sort": 0,
   "ownership": {
     "default": 0,
     "NCcxUpA1X43TucQV": 3
   },
-  "_key": "!items!rVsO4EFhqhTGMpqR"
+  "_key": "!items!6ppaFljuWNHLcskx"
 }

@@ -11,12 +11,12 @@
       "success": {
         "key": "system.moveResults.success.value",
         "label": "10+",
-        "value": "<p>The news is staggering; the person you're speaking to must @UUID[Compendium.pasion-de-las-pasiones.moves.Item.ZG3GSRjBqIiTmB0Z]{act with desperation} before they can act against you. Choose two options from the following list.</p><ul><li><p>You have unequivocal evidence this is true.</p></li><li><p>The shocking truth gives you rightful claim to something they value.</p></li><li><p>You introduce a shocking new character who has your back.</p></li></ul>"
+        "value": "<p>The news is staggering; the person you're speaking to must @UUID[Compendium.pasion-de-las-pasiones.playbooks-and-moves.Item.ZG3GSRjBqIiTmB0Z]{act with desperation} before they can act against you. Choose two options from the following list.</p><ul><li><p>You have unequivocal evidence this is true.</p></li><li><p>The shocking truth gives you rightful claim to something they value.</p></li><li><p>You introduce a shocking new character who has your back.</p></li></ul>"
       },
       "partial": {
         "key": "system.moveResults.partial.value",
         "label": "7-9",
-        "value": "<p>The news is staggering; the person you're speaking to must @UUID[Compendium.pasion-de-las-pasiones.moves.Item.ZG3GSRjBqIiTmB0Z]{act with desperation} before they can act against you. Choose one option from the following list.</p><ul><li><p>You have unequivocal evidence this is true.</p></li><li><p>The shocking truth gives you rightful claim to something they value.</p></li><li><p>You introduce a shocking new character who has your back.</p></li></ul>"
+        "value": "<p>The news is staggering; the person you're speaking to must @UUID[Compendium.pasion-de-las-pasiones.playbooks-and-moves.Item.ZG3GSRjBqIiTmB0Z]{act with desperation} before they can act against you. Choose one option from the following list.</p><ul><li><p>You have unequivocal evidence this is true.</p></li><li><p>The shocking truth gives you rightful claim to something they value.</p></li><li><p>You introduce a shocking new character who has your back.</p></li></ul>"
       },
       "failure": {
         "key": "system.moveResults.failure.value",
