@@ -63,6 +63,10 @@ If you have any questions, feel free to contact me
 ## Languages
 The module ships in English and Français. Set your language in Foundry's core settings; English needs nothing extra, other languages also need the [Babele](https://foundryvtt.com/packages/babele) module (and its libWrapper dependency) enabled in the world. Want to add a language? See [TRANSLATING.md](TRANSLATING.md).
 
+> **Foundry v12 needs Babele 2.6.2.** This module is verified on Foundry v12, and Foundry's module browser offers the newest Babele (2.9.x targets Foundry v14), which breaks the compendiums on v12. Install 2.6.2 instead: in Setup, Add-on Modules, Install Module, paste this manifest URL at the bottom:
+> `https://gitlab.com/riccisi/foundryvtt-babele/-/raw/2.6.2/module/module.json`
+> (Uninstall any newer Babele first.)
+
 ## Requirements
 You need to have installed the [Powered by the Apocalypse system by Asacolips](https://github.com/asacolips-projects/pbta)
 
