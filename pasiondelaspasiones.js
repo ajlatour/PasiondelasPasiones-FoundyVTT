@@ -8,13 +8,38 @@ Hooks.once("babele.init", registerTranslations);
 
 // Compendium titles come from lang/<code>.json (PASION.packs.<pack>) so they follow the user's
 // language even without Babele. Falls back to the English label in module.json.
+const englishTitles = {};
+Hooks.once("init", () => {
+  for (const pack of game.data.packs) {
+    if (pack.packageName === MODULE_ID) englishTitles[pack.name] = pack.label;
+  }
+});
+
+const packTitle = name => {
+  const key = `PASION.packs.${name}`;
+  return game.i18n.has(key, false) ? game.i18n.localize(key) : null;
+};
+
 Hooks.once("ready", () => {
   for (const pack of game.packs) {
     if (pack.metadata.packageName !== MODULE_ID) continue;
-    const key = `PASION.packs.${pack.metadata.name}`;
-    if (game.i18n.has(key, false)) pack.metadata.label = game.i18n.localize(key);
+    const title = packTitle(pack.metadata.name);
+    if (title) pack.metadata.label = title;
   }
   ui.sidebar.tabs.compendium?.render();
+});
+
+// The sidebar list does not reliably pick up the localized label, so also patch the rendered text.
+Hooks.on("renderCompendiumDirectory", (app, html) => {
+  const root = html instanceof HTMLElement ? html : html?.[0];
+  if (!root) return;
+  const walker = document.createTreeWalker(root, NodeFilter.SHOW_TEXT);
+  for (let node = walker.nextNode(); node; node = walker.nextNode()) {
+    const text = node.data.trim();
+    const name = Object.keys(englishTitles).find(n => englishTitles[n] === text);
+    const title = name && packTitle(name);
+    if (title) node.data = node.data.replace(text, title);
+  }
 });
 
 Hooks.once("ready", () => {
