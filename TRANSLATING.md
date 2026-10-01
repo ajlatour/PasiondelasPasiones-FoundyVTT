@@ -55,3 +55,8 @@ edits made inside Foundry back into `src/`, use `npm run unpack`.
 
 Players only need to set their Foundry language (Configure Settings → Core → Language) and install
 the recommended Babele module (and its libWrapper dependency) on the world. English needs neither.
+
+**On Foundry v12, install Babele 2.6.2, not the newest version.** The module browser offers the latest
+Babele (2.9.x targets Foundry v14), which breaks the compendiums on v12. Install 2.6.2 from this manifest
+URL (Setup, Add-on Modules, Install Module; uninstall any newer Babele first):
+`https://gitlab.com/riccisi/foundryvtt-babele/-/raw/2.6.2/module/module.json`

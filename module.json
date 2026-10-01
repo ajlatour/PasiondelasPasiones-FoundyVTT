@@ -44,7 +44,7 @@
       {
         "id": "babele",
         "type": "module",
-        "reason": "Translates the compendium content into your language (not needed for English)."
+        "reason": "Translates the compendium content into your language (not needed for English). On Foundry v12 install Babele 2.6.2, not the newest version."
       }
     ]
   },
