@@ -2,8 +2,8 @@
   "id": "pasion-de-las-pasiones-vf",
   "title": "Pasión de las Pasiones EN",
   "version": "1.0.0",
-  "manifest": "https://raw.githubusercontent.com/ajlatour/PasiondelasPasiones-FoundyVTT/english-translation/module.json",
-  "download": "https://github.com/ajlatour/PasiondelasPasiones-FoundyVTT/archive/refs/heads/english-translation.zip",
+  "manifest": "https://raw.githubusercontent.com/ajlatour/PasiondelasPasiones-FoundyVTT/main/module.json",
+  "download": "https://github.com/ajlatour/PasiondelasPasiones-FoundyVTT/archive/refs/heads/main.zip",
   "compatibility": {
     "minimum": "12",
     "verified": "12"
