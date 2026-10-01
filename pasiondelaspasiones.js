@@ -31,7 +31,7 @@ Hooks.on("renderSettings", (app, html) => {
     container.append(button);
   };
 
-  const title = "Liens de soutien";
+  const title = "Support Links";
   const lotdSection = $(`<h2>${title}  <i class="fa-regular fa-heart"></i></h2>`);
   html.find("#settings-game").after(lotdSection);
 
@@ -68,7 +68,7 @@ Hooks.once('pbtaSheetConfig', () => {
   game.pbta.sheetConfig = {
     "rollFormula": "2d6",
     "statToggle": {
-        "label": "Épuisé",
+        "label": "Exhausted",
         "modifier": 0
     },
     "rollShifting": true,
@@ -77,31 +77,31 @@ Hooks.once('pbtaSheetConfig', () => {
         "success": {
             "start": 10,
             "end": null,
-            "label": "Succès 10+ !"
+            "label": "10+"
         },
         "partial": {
             "start": 7,
             "end": 9,
-            "label": "Succès 7+ !"
+            "label": "7-9"
         },
         "failure": {
             "start": null,
             "end": 6,
-            "label": "Râté..."
+            "label": "Miss"
         }
     },
     "actorTypes": {
         "character": {
             "details": {
                 "biography": {
-                    "label": "Biographie",
+                    "label": "Biography",
                     "value": ""
                 }
             },
             "stats": {},
             "attributes": {
                 "questioncaballero": {
-                    "label": "Ta question",
+                    "label": "Your Question",
                     "description": null,
                     "customLabel": false,
                     "userLabel": false,
@@ -112,7 +112,7 @@ Hooks.once('pbtaSheetConfig', () => {
                     "value": ""
                 },
                 "questionjefe": {
-                    "label": "Ta question",
+                    "label": "Your Question",
                     "description": null,
                     "customLabel": false,
                     "userLabel": false,
@@ -123,7 +123,7 @@ Hooks.once('pbtaSheetConfig', () => {
                     "value": ""
                 },
                 "questionempleada": {
-                    "label": "Ta question",
+                    "label": "Your Question",
                     "description": null,
                     "customLabel": false,
                     "userLabel": false,
@@ -134,7 +134,7 @@ Hooks.once('pbtaSheetConfig', () => {
                     "value": ""
                 },
                 "questiondona": {
-                    "label": "Ta question",
+                    "label": "Your Question",
                     "description": null,
                     "customLabel": false,
                     "userLabel": false,
@@ -145,7 +145,7 @@ Hooks.once('pbtaSheetConfig', () => {
                     "value": ""
                 },
                 "questionbelleza": {
-                    "label": "Ta question",
+                    "label": "Your Question",
                     "description": null,
                     "customLabel": false,
                     "userLabel": false,
@@ -156,7 +156,7 @@ Hooks.once('pbtaSheetConfig', () => {
                     "value": ""
                 },
                 "questiongemelo": {
-                    "label": "Ta question",
+                    "label": "Your Question",
                     "description": null,
                     "customLabel": false,
                     "userLabel": false,
@@ -167,7 +167,7 @@ Hooks.once('pbtaSheetConfig', () => {
                     "value": ""
                 },
                 "apparencecaballero": {
-                    "label": "Apparence",
+                    "label": "Look",
                     "description": null,
                     "customLabel": false,
                     "userLabel": false,
@@ -178,7 +178,7 @@ Hooks.once('pbtaSheetConfig', () => {
                     "value": ""
                 },
                 "apparencejefe": {
-                    "label": "Apparence",
+                    "label": "Look",
                     "description": null,
                     "customLabel": false,
                     "userLabel": false,
@@ -189,7 +189,7 @@ Hooks.once('pbtaSheetConfig', () => {
                     "value": ""
                 },
                 "apparenceempleada": {
-                    "label": "Apparence",
+                    "label": "Look",
                     "description": null,
                     "customLabel": false,
                     "userLabel": false,
@@ -200,7 +200,7 @@ Hooks.once('pbtaSheetConfig', () => {
                     "value": ""
                 },
                 "apparencedona": {
-                    "label": "Apparence",
+                    "label": "Look",
                     "description": null,
                     "customLabel": false,
                     "userLabel": false,
@@ -211,7 +211,7 @@ Hooks.once('pbtaSheetConfig', () => {
                     "value": ""
                 },
                 "apparencebelleza": {
-                    "label": "Apparence",
+                    "label": "Look",
                     "description": null,
                     "customLabel": false,
                     "userLabel": false,
@@ -222,7 +222,7 @@ Hooks.once('pbtaSheetConfig', () => {
                     "value": ""
                 },
                 "apparencegemelo": {
-                    "label": "Apparence",
+                    "label": "Look",
                     "description": null,
                     "customLabel": false,
                     "userLabel": false,
@@ -233,7 +233,7 @@ Hooks.once('pbtaSheetConfig', () => {
                     "value": ""
                 },
                 "relationcaballero": {
-                    "label": "Relations",
+                    "label": "Relationships",
                     "description": null,
                     "customLabel": false,
                     "userLabel": false,
@@ -244,7 +244,7 @@ Hooks.once('pbtaSheetConfig', () => {
                     "value": ""
                 },
                 "relationjefe": {
-                    "label": "Relations",
+                    "label": "Relationships",
                     "description": null,
                     "customLabel": false,
                     "userLabel": false,
@@ -255,7 +255,7 @@ Hooks.once('pbtaSheetConfig', () => {
                     "value": ""
                 },
                 "relationempleada": {
-                    "label": "Relations",
+                    "label": "Relationships",
                     "description": null,
                     "customLabel": false,
                     "userLabel": false,
@@ -266,7 +266,7 @@ Hooks.once('pbtaSheetConfig', () => {
                     "value": ""
                 },
                 "relationdona": {
-                    "label": "Relations",
+                    "label": "Relationships",
                     "description": null,
                     "customLabel": false,
                     "userLabel": false,
@@ -277,7 +277,7 @@ Hooks.once('pbtaSheetConfig', () => {
                     "value": ""
                 },
                 "relationbelleza": {
-                    "label": "Relations",
+                    "label": "Relationships",
                     "description": null,
                     "customLabel": false,
                     "userLabel": false,
@@ -288,7 +288,7 @@ Hooks.once('pbtaSheetConfig', () => {
                     "value": ""
                 },
                 "relationgemelo": {
-                    "label": "Relations",
+                    "label": "Relationships",
                     "description": null,
                     "customLabel": false,
                     "userLabel": false,
@@ -299,8 +299,8 @@ Hooks.once('pbtaSheetConfig', () => {
                     "value": ""
                 },
                 "pretendants": {
-                    "label": "Prétendants",
-                    "description": "Coche ton amour",
+                    "label": "Suitors",
+                    "description": "Mark your Love",
                     "customLabel": false,
                     "userLabel": false,
                     "playbook": "la-empleada",
@@ -321,7 +321,7 @@ Hooks.once('pbtaSheetConfig', () => {
                     }
                 },
                 "reseau": {
-                    "label": "Ton réseau",
+                    "label": "Your Network",
                     "description": null,
                     "customLabel": false,
                     "userLabel": false,
@@ -332,7 +332,7 @@ Hooks.once('pbtaSheetConfig', () => {
                     "value": ""
                 },
                 "etatsgemelo": {
-                    "label": "États",
+                    "label": "Conditions",
                     "description": null,
                     "customLabel": false,
                     "userLabel": false,
@@ -344,25 +344,25 @@ Hooks.once('pbtaSheetConfig', () => {
                     "sort": false,
                     "options": {
                         "0": {
-                            "label": "Acculé : +1 pour agir en désespoir de cause, -2 pour exiger son dû.",
+                            "label": "Cornered: +1 to act with desperation, -2 to demand what you deserve",
                             "value": false
                         },
                         "1": {
-                            "label": "Circonspect : +1 pour manipuler un supérieur, -2 pour s’en prendre à autrui",
+                            "label": "Guarded: +1 to manipulate a superior, -2 to strike out",
                             "value": false
                         },
                         "2": {
-                            "label": "Déterminé : +1 pour accuser de mentir, -2 pour déclarer sa flamme avec passion",
+                            "label": "Driven: +1 to accuse someone of lying, -2 to express your love passionately",
                             "value": false
                         },
                         "3": {
-                            "label": "Renfrogné : +1 pour exprimer ses sentiments à haute voix, -2 pour remarquer quelque chose d’incongru",
+                            "label": "Brooding: +1 to process your feelings out loud, -2 to spot something out of place",
                             "value": false
                         }
                     }
                 },
                 "etatscaballero": {
-                    "label": "États",
+                    "label": "Conditions",
                     "description": null,
                     "customLabel": false,
                     "userLabel": false,
@@ -374,25 +374,25 @@ Hooks.once('pbtaSheetConfig', () => {
                     "sort": false,
                     "options": {
                         "0": {
-                            "label": "Absorbé : +1 pour remarquer quelque chose d’incongru, -2 pour déclarer sa flamme avec passion",
+                            "label": "Engrossed: +1 to spot something out of place, -2 to express your love passionately",
                             "value": false
                         },
                         "1": {
-                            "label": "Acculé : +1 pour agir en désespoir de cause, -2 pour exiger son dû",
+                            "label": "Cornered: +1 to act with desperation, -2 to demand what you deserve",
                             "value": false
                         },
                         "2": {
-                            "label": "Brutal : +1 pour s’en prendre à autrui, -2 pour exprimer ses sentiments à haute voix",
+                            "label": "Vicious: +1 to strike out, -2 to process your feelings out loud",
                             "value": false
                         },
                         "3": {
-                            "label": "Réprobateur : +1 pour accuser de mentir, -2 pour manipuler un supérieur",
+                            "label": "Condemning: +1 to accuse someone of lying, -2 to manipulate a superior",
                             "value": false
                         }
                     }
                 },
                 "etatsempleada": {
-                    "label": "États",
+                    "label": "Conditions",
                     "description": null,
                     "customLabel": false,
                     "userLabel": false,
@@ -404,25 +404,25 @@ Hooks.once('pbtaSheetConfig', () => {
                     "sort": false,
                     "options": {
                         "0": {
-                            "label": "Désespéré : +1 pour remarquer quelque chose d’incongru, -2 pour accuser de mentir",
+                            "label": "Hopeless: +1 to spot something out of place, -2 to accuse someone of lying",
                             "value": false
                         },
                         "1": {
-                            "label": "Éperdu : +1 pour déclarer sa flamme avec passion, -2 pour agir en désespoir de cause",
+                            "label": "Lovelorn: +1 to express your love passionately, -2 to act with desperation",
                             "value": false
                         },
                         "2": {
-                            "label": "Évasif : +1 pour manipuler un supérieur, -2 pour exiger son dû",
+                            "label": "Cagey: +1 to manipulate a superior, -2 to demand what you deserve",
                             "value": false
                         },
                         "3": {
-                            "label": "Introspectif : +1 pour exprimer ses sentiments à haute voix, -2 pour s’en prendre à autrui",
+                            "label": "Introspective: +1 to process your feelings out loud, -2 to strike out",
                             "value": false
                         }
                     }
                 },
                 "etatsdona": {
-                    "label": "États",
+                    "label": "Conditions",
                     "description": null,
                     "customLabel": false,
                     "userLabel": false,
@@ -434,25 +434,25 @@ Hooks.once('pbtaSheetConfig', () => {
                     "sort": false,
                     "options": {
                         "0": {
-                            "label": "Critique : +1 pour accuser de mentir, -2 pour s’en prendre à autrui",
+                            "label": "Chiding: +1 to accuse someone of lying, -2 to strike out",
                             "value": false
                         },
                         "1": {
-                            "label": "Intransigeant : +1 pour exiger son dû, -2 pour manipuler un supérieur",
+                            "label": "Righteous: +1 to demand what you deserve, -2 to manipulate a superior",
                             "value": false
                         },
                         "2": {
-                            "label": "Pensif : +1 pour exprimer ses sentiments à haute voix, -2 pour déclarer sa flamme avec passion.",
+                            "label": "Ruminative: +1 to process your feelings out loud, -2 to express your love passionately.",
                             "value": false
                         },
                         "3": {
-                            "label": "Prudent : +1 pour remarquer quelque chose d’incongru, -2 pouragir en désespoir de cause",
+                            "label": "Cautious: +1 to spot something out of place, -2 to act with desperation",
                             "value": false
                         }
                     }
                 },
                 "etatsbelleza": {
-                    "label": "États",
+                    "label": "Conditions",
                     "description": null,
                     "customLabel": false,
                     "userLabel": false,
@@ -464,25 +464,25 @@ Hooks.once('pbtaSheetConfig', () => {
                     "sort": false,
                     "options": {
                         "0": {
-                            "label": "Acharné : +1 pour exiger son dû, -2 pour agir en désespoir de cause.",
+                            "label": "Zealous: +1 to demand what you deserve, -2 to act with desperation.",
                             "value": false
                         },
                         "1": {
-                            "label": "Furieux : +1 pour s’en prendre à autrui, -2 pour remarquer quelque chose d’incongru.",
+                            "label": "Raging: +1 to strike out, -2 to spot something out of place.",
                             "value": false
                         },
                         "2": {
-                            "label": "Lascif : +1 pour déclarer sa flamme avec passion, -2 pour exprimer ses sentiments à haute voix",
+                            "label": "Lustful: +1 to express your love passionately, -2 to process your feelings out loud",
                             "value": false
                         },
                         "3": {
-                            "label": "Sournois : +1 pour manipuler un supérieur, -2 pour accuser de mentir.",
+                            "label": "Underhanded: +1 to manipulate a superior, -2 to accuse someone of lying.",
                             "value": false
                         }
                     }
                 },
                 "etatsjefe": {
-                    "label": "États",
+                    "label": "Conditions",
                     "description": null,
                     "customLabel": false,
                     "userLabel": false,
@@ -494,25 +494,25 @@ Hooks.once('pbtaSheetConfig', () => {
                     "sort": false,
                     "options": {
                         "0": {
-                            "label": "Empressé : +1 pour agir en désespoir de cause, -2 pour accuser de mentir.",
+                            "label": "Reactive: +1 to act with desperation, -2 to accuse someone of lying.",
                             "value": false
                         },
                         "1": {
-                            "label": "Furieux : +1 pour s’en prendre à autrui, -2 pour remarquer quelque chose d’incongru",
+                            "label": "Raging: +1 to strike out, -2 to spot something out of place.",
                             "value": false
                         },
                         "2": {
-                            "label": "Intransigeant : +1 pour exiger son dû, -2 pour manipuler un supérieur.",
+                            "label": "Righteous: +1 to demand what you deserve, -2 to manipulate a superior",
                             "value": false
                         },
                         "3": {
-                            "label": " Lascif : +1 pour déclarer sa flamme avec passion, -2 pour exprimer ses sentiments à haute voix.",
+                            "label": "Lustful: +1 to express your love passionately, -2 to process your feelings out loud",
                             "value": false
                         }
                     }
                 },
                 "episodesjefe": {
-                    "label": "Dans les épisodes précédents",
+                    "label": "Last Time On",
                     "description": null,
                     "customLabel": false,
                     "userLabel": false,
@@ -524,37 +524,37 @@ Hooks.once('pbtaSheetConfig', () => {
                     "sort": false,
                     "options": {
                         "0": {
-                            "label": "Tu t’es montré tendre dans un moment de faiblesse devant un personnage",
+                            "label": "You showed someone a moment of tender weakness",
                             "value": false
                         },
                         "1": {
-                            "label": "Tu as juré de te venger de quelqu’un d’important",
+                            "label": "You swore to take revenge against someone important",
                             "value": false
                         },
                         "2": {
-                            "label": "Tu occupes une position temporaire à la tête d’une entreprise ou d’une fonction politique.",
+                            "label": "You took over a business or political seat as an interim leader.",
                             "value": false
                         },
                         "3": {
-                            "label": "Tu as révélé que tu connais l’un des secrets d’un personnage",
+                            "label": "You revealed that you know a secret truth hidden from someone",
                             "value": false
                         },
                         "4": {
-                            "label": "Tu as perdu quelque chose de précieux que tu dois impérativement récupérer",
+                            "label": "You lost something truly valuable that you must recover",
                             "value": false
                         },
                         "5": {
-                            "label": "Tu as perdu ton sang-froid et tu as blessé l’un de tes associés",
+                            "label": "You lost your temper and hurt one of your associates",
                             "value": false
                         },
                         "6": {
-                            "label": "Tu as raffermi ton étreinte sur quelque chose jusqu’à le broyer",
+                            "label": "You tightened your grip on something until it snapped",
                             "value": false
                         }
                     }
                 },
                 "episodesbelleza": {
-                    "label": "Dans les épisodes précédents",
+                    "label": "Last Time On",
                     "description": null,
                     "customLabel": false,
                     "userLabel": false,
@@ -566,37 +566,37 @@ Hooks.once('pbtaSheetConfig', () => {
                     "sort": false,
                     "options": {
                         "0": {
-                            "label": "Dans les bras d’un autre personnage, tu as repéré quelque chose dont tu veux t’emparer",
+                            "label": "In the arms of another character, you spotted something you want to seize",
                             "value": false
                         },
                         "1": {
-                            "label": "Tu as signé un contrat d’une signature pleine de fioritures.",
+                            "label": "You signed a contract with a flourish-filled signature.",
                             "value": false
                         },
                         "2": {
-                            "label": "Tu as percuté quelque chose avec ta superbe voiture rutilante.",
+                            "label": "You crashed into something with your gorgeous, gleaming car.",
                             "value": false
                         },
                         "3": {
-                            "label": "Tu t’es lié(e) d’amitié avec quelqu’un de dangereux et de passionné.",
+                            "label": "You befriended someone dangerous and passionate.",
                             "value": false
                         },
                         "4": {
-                            "label": "Dans un accès de fureur, tu as jeté ton verre de vin au visage d’un personnage.",
+                            "label": "In a fit of rage, you threw your glass of wine in a character's face.",
                             "value": false
                         },
                         "5": {
-                            "label": "Tu es tombé(e) dans les bras d’un(e) amant(e) de rang inférieur.",
+                            "label": "You fell into the arms of a lover of lower standing.",
                             "value": false
                         },
                         "6": {
-                            "label": "Tu as subrepticement glissé quelque chose dans les affaires d’un personnage",
+                            "label": "You slipped something into somebody's possession without them knowing",
                             "value": false
                         }
                     }
                 },
                 "episodesempleada": {
-                    "label": "Dans les épisodes précédents",
+                    "label": "Last Time On",
                     "description": null,
                     "customLabel": false,
                     "userLabel": false,
@@ -608,37 +608,37 @@ Hooks.once('pbtaSheetConfig', () => {
                     "sort": false,
                     "options": {
                         "0": {
-                            "label": "Il s’en est fallu de très peu que tu n’embrasses quelqu’un que tu ne devrais\npas.",
+                            "label": "You came so very, very close to kissing someone you shouldn't.",
                             "value": false
                         },
                         "1": {
-                            "label": "Tu as acquis la plus belle tenue élégante que tu as jamais vue.",
+                            "label": "You acquired the most beautiful, elegant outfit you've ever seen.",
                             "value": false
                         },
                         "2": {
-                            "label": "Tu as poussé un personnage à se mettre en colère et tu l’as blessé plus qu’escompté.",
+                            "label": "You pushed someone in a fit of anger and hurt them more than you wanted.",
                             "value": false
                         },
                         "3": {
-                            "label": "Tu as intercepté une lettre destinée à un autre personnage.",
+                            "label": "You intercepted a letter meant for someone else.",
                             "value": false
                         },
                         "4": {
-                            "label": "Tu as été témoin d’une chose horrible, mais tu ne sais pas qui l’a commise.",
+                            "label": "You witnessed something horrible but don't know who did it.",
                             "value": false
                         },
                         "5": {
-                            "label": "Tu as caché quelque chose dans un endroit où, avec espoir, il sera en sécurité",
+                            "label": "You hid something where it will hopefully be safe",
                             "value": false
                         },
                         "6": {
-                            "label": "Tu as révélé à un proche un secret qui n’aurait pas dû être divulgué. ",
+                            "label": "You told a dear friend a secret that should have stayed undisclosed. ",
                             "value": false
                         }
                     }
                 },
                 "episodesdona": {
-                    "label": "Dans les épisodes précédents",
+                    "label": "Last Time On",
                     "description": null,
                     "customLabel": false,
                     "userLabel": false,
@@ -650,37 +650,37 @@ Hooks.once('pbtaSheetConfig', () => {
                     "sort": false,
                     "options": {
                         "0": {
-                            "label": "Tu as ajouté ton nom sur un bail, un contrat ou un acte notarié.",
+                            "label": "You manipulated your name onto a lease, contract, or deed.",
                             "value": false
                         },
                         "1": {
-                            "label": "Tu as sincèrement réconforté un personnage dans le besoin",
+                            "label": "You comforted someone in their time of need and meant it",
                             "value": false
                         },
                         "2": {
-                            "label": "Tu as remis une arme à un personnage, tout en lui susurrant des encouragements",
+                            "label": "You handed someone a weapon with whispers of encouragement",
                             "value": false
                         },
                         "3": {
-                            "label": "Tu as hurlé sur un personnage et l’as laissé désemparé",
+                            "label": "You shouted someone down and left them distraught",
                             "value": false
                         },
                         "4": {
-                            "label": "Tu as sorti un personnage d’une mauvaise passe grâce à ton argent",
+                            "label": "You used your resources to buy someone out of a bad spot",
                             "value": false
                         },
                         "5": {
-                            "label": "Tu as demandé de l’aide en paiement d’une dette, mais personne n’est venu à ton secours",
+                            "label": "You called in a favor but nobody came to your aid",
                             "value": false
                         },
                         "6": {
-                            "label": "Tu as révélé tes véritables sentiments à quelqu’un à qui il ne fallait pas",
+                            "label": "You showed your deep, hidden feelings to someone you shouldn't have",
                             "value": false
                         }
                     }
                 },
                 "episodescaballero": {
-                    "label": "Dans les épisodes précédents",
+                    "label": "Last Time On",
                     "description": null,
                     "customLabel": false,
                     "userLabel": false,
@@ -692,37 +692,37 @@ Hooks.once('pbtaSheetConfig', () => {
                     "sort": false,
                     "options": {
                         "0": {
-                            "label": "Tu as été mêlé(e) à une bagarre dont tu es à peine sorti(e) vivant(e)",
+                            "label": "You got into a scrap that you barely got out of alive",
                             "value": false
                         },
                         "1": {
-                            "label": "Tu as découvert une lettre qui te lie fortement à quelqu’un",
+                            "label": "You uncovered a letter that ties you deeply to someone",
                             "value": false
                         },
                         "2": {
-                            "label": "Tu as laissé tes empreintes sur une arme qui a depuis disparu",
+                            "label": "You bare-handedly touched a weapon that has since gone missing",
                             "value": false
                         },
                         "3": {
-                            "label": "Tu as accepté de collaborer avec la police pour piéger quelqu’un.",
+                            "label": "You agreed to work with the authorities to trick someone.",
                             "value": false
                         },
                         "4": {
-                            "label": "Tu as dévoilé un pan de ton passé sordide, les larmes aux yeux.",
+                            "label": "You spilled a piece of your sordid past, tears in your eyes.",
                             "value": false
                         },
                         "5": {
-                            "label": "Tu as vu deux personnes s’embrasser à travers une fenêtre.",
+                            "label": "You spotted two people embracing through a window.",
                             "value": false
                         },
                         "6": {
-                            "label": "Tu as travaillé dur pour réparer quelque chose.",
+                            "label": "You put in some hard work to get something fixed.",
                             "value": false
                         }
                     }
                 },
                 "episodesgemelo": {
-                    "label": "Dans les épisodes précédents",
+                    "label": "Last Time On",
                     "description": null,
                     "customLabel": false,
                     "userLabel": false,
@@ -734,37 +734,37 @@ Hooks.once('pbtaSheetConfig', () => {
                     "sort": false,
                     "options": {
                         "0": {
-                            "label": "Tu es entré(e) dans le domicile de ton jumeau et tu as laissé quelque chose derrière toi",
+                            "label": "You got into your twin's home and left something behind",
                             "value": false
                         },
                         "1": {
-                            "label": "Tu t’es battu(e) avec ton jumeau et l’un de vous a failli mourir.",
+                            "label": "You fought with your twin and one of you nearly died.",
                             "value": false
                         },
                         "2": {
-                            "label": "Tu as reçu une grosse somme d’argent d’un mystérieux bienfaiteur.",
+                            "label": "You received a large sum of money from a mysterious benefactor.",
                             "value": false
                         },
                         "3": {
-                            "label": "Tu as obtenu la preuve de l’identité de tes parents",
+                            "label": "You acquired proof of your parentage",
                             "value": false
                         },
                         "4": {
-                            "label": "Tu as été approché(e) par quelqu’un qui menace de révéler ton secret.",
+                            "label": "You were approached by someone who threatened to spill your secret.",
                             "value": false
                         },
                         "5": {
-                            "label": "Tu as espionné ton jumeau, sans savoir que quelqu’un t’observait.",
+                            "label": "You watched your twin, unaware someone was watching you.",
                             "value": false
                         },
                         "6": {
-                            "label": "Tu t’es rendu(e) à un événement mondain en même temps que ton jumeau.",
+                            "label": "You showed up at an event with your twin.",
                             "value": false
                         }
                     }
                 },
                 "progression": {
-                    "label": "Progression",
+                    "label": "Advancement",
                     "description": null,
                     "customLabel": false,
                     "userLabel": false,
@@ -784,7 +784,7 @@ Hooks.once('pbtaSheetConfig', () => {
                                     "value": false
                                 }
                             },
-                            "label": "Prendre une nouvelle manœuvre de ton livret de personnage."
+                            "label": "Take a new move from your playbook."
                         },
                         "1": {
                             "values": {
@@ -798,7 +798,7 @@ Hooks.once('pbtaSheetConfig', () => {
                                     "value": false
                                 }
                             },
-                            "label": "Prendre une manœuvre d’un autre livret de personnage"
+                            "label": "Take a move from another playbook"
                         },
                         "2": {
                             "values": {
@@ -812,10 +812,10 @@ Hooks.once('pbtaSheetConfig', () => {
                                     "value": false
                                 }
                             },
-                            "label": "Modifier un de tes états"
+                            "label": "Change one of your conditions"
                         },
                         "3": {
-                            "label": "Remplacer ta question de livret de personnage",
+                            "label": "Replace your playbook question",
                             "value": false
                         },
                         "4": {
@@ -830,7 +830,7 @@ Hooks.once('pbtaSheetConfig', () => {
                                     "value": false
                                 }
                             },
-                            "label": "Introduire un nouveau PNJ"
+                            "label": "Introduce a new NPC"
                         },
                         "5": {
                             "values": {
@@ -841,47 +841,47 @@ Hooks.once('pbtaSheetConfig', () => {
                                     "value": false
                                 }
                             },
-                            "label": "Prendre le contrôle permanent d’un PNJ existant"
+                            "label": "Take permanent control of an existing NPC"
                         }
                     }
                 }
             },
             "moveTypes": {
                 "basic": {
-                    "label": "Manœuvres de base",
+                    "label": "Basic Moves",
                     "playbook": false,
                     "creation": true
                 },
                 "secondaires": {
-                    "label": "Manœuvres secondaires",
+                    "label": "Peripheral Moves",
                     "playbook": false,
                     "creation": true
                 },
                 "atout": {
-                    "label": "Atout",
+                    "label": "Asset",
                     "playbook": false,
                     "creation": false
                 },
                 "playbook": {
-                    "label": "Manœuvres de livret"
+                    "label": "Playbook Moves"
                 }
             },
             "equipmentTypes": {
                 "equipement": {
-                    "label": "Equipement"
+                    "label": "Equipment"
                 }
             }
         },
         "npc": {
             "details": {
                 "biography": {
-                    "label": "Biographie",
+                    "label": "Biography",
                     "value": ""
                 }
             },
             "attributes": {
                 "accrochem": {
-                    "label": "Accroche et manœuvre",
+                    "label": "Hook and Move",
                     "description": null,
                     "customLabel": false,
                     "userLabel": false,
@@ -894,12 +894,12 @@ Hooks.once('pbtaSheetConfig', () => {
             },
             "moveTypes": {
                 "npcmove": {
-                    "label": "Manœuvre"
+                    "label": "Move"
                 }
             },
             "equipmentTypes": {
                 "equipement": {
-                    "label": "Equipement"
+                    "label": "Equipment"
                 }
             }
         }

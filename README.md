@@ -1,10 +1,12 @@
-## Module Pasión de las Pasiones pour Foundry VTT
+## Pasión de las Pasiones Module for Foundry VTT
 
-Ce module permet de jouer à Pasión de las Pasiones sur Foundry VTT et nécessite l'installation du système [Powered by the Apocalypse d'Asacolips](https://github.com/asacolips-projects/pbta).
+This module lets you play Pasión de las Pasiones on Foundry VTT and requires installing the [Powered by the Apocalypse system by Asacolips](https://github.com/asacolips-projects/pbta).
 
-Vous pouvez acheter Pasión de las Pasiones ici : https://khelren.itch.io/pasion
+You can buy Pasión de las Pasiones here: https://khelren.itch.io/pasion
 
-**Importer uniquement les journaux**
+> **Note:** This is a personal, unofficial English translation of Khelren's French edition of this module, for private use. It has not been reviewed or approved by Khelren.
+
+**Import journals only**
 
 ![image](https://github.com/user-attachments/assets/0bc6d889-23de-4fd8-829b-9e079a13c756)
 
@@ -14,59 +16,58 @@ Vous pouvez acheter Pasión de las Pasiones ici : https://khelren.itch.io/pasion
 
 
 
-Pour créer une fiche de personnage, on choisit *Personnage*
+To create a character sheet, choose *Character*
 
 ![image](https://github.com/user-attachments/assets/17bd85e4-5446-4697-a6d2-fbb6e8387ef4)
 
 
-Ensuite, on choisit le livret et un pop-up nous montrera les options de départ de ce livret.
+Then choose the playbook and a pop-up will show you that playbook's starting options.
 ![image](https://github.com/user-attachments/assets/fd0774cd-968c-405a-a8f7-7543d6631b2b)
 ![image](https://github.com/user-attachments/assets/fbc8c83d-9790-433b-a710-d3839ecd0510)
 
 
 
-On peut clic sur l'oeil à côté du livret pour consulter son contenu. On peut glisser et déposer les objets du livret.
+You can click the eye icon next to the playbook to view its contents. You can drag and drop items from the playbook.
 
 ![image](https://github.com/user-attachments/assets/8dd6742e-182b-41af-8615-43639efd6200)
 
 
 
-On peut également consulter toutes les étapes d'une création de personnage grâce aux journaux.
+You can also review every step of character creation through the journals.
 ![image](https://github.com/user-attachments/assets/67ea540b-4c07-4b11-8e8b-b0c9d00ff596)
 
 
-N'hésitez pas à soutenir cet excellent jeu ! Vous pouvez [mettre 5 étoiles, l'acheter](https://khelren.itch.io/pasion) ou [offrir un café à Khelren](https://ko-fi.com/khelren)
+Don't hesitate to support this excellent game! You can [give it 5 stars, buy it](https://khelren.itch.io/pasion) or [buy Khelren a coffee](https://ko-fi.com/khelren)
 
 
 ## Installation
-Utiliser ce lien dans la rubique modules de FoundryVTT 
+Use this link in FoundryVTT's modules section
 https://github.com/Chibib/PasiondelasPasiones-FoundyVTT/releases/latest/download/module.json
 
 ![image](https://github.com/user-attachments/assets/b587280b-c3e0-470d-a1c4-bb54cb935c40)
 
 
 
-Si vous avez des questions, n'hésitez pas à me contacter 
-- Discord : chibimiko 
-- Mastodon : https://ludosphere.fr/@Chibi
+If you have any questions, feel free to contact me
+- Discord: chibimiko
+- Mastodon: https://ludosphere.fr/@Chibi
 
-## Fonctionnalités
-- Livrets de personnages
-- Feuille pour les PNJ
-- Compendium de toutes les manoeuvres
-- Création de personnage détailllée
-- Les objets peuvent être glissés et déposés depuis les journaux
-- La Rosa Querida et El sabor del Amor
+## Features
+- Character playbooks
+- NPC sheet
+- Compendium of all moves
+- Detailed character creation
+- Items can be dragged and dropped from the journals
+- La Rosa Querida and El Sabor del Amor
 
+## Requirements
+You need to have installed the [Powered by the Apocalypse system by Asacolips](https://github.com/asacolips-projects/pbta)
 
-## Prérequis
-Il est nécessaire d'avoir installé le système [Powered by the Apocalypse d'Asacolips](https://github.com/asacolips-projects/pbta) 
+## Licenses
 
-## Licenses 
+**Content**: Fanmade module. The text is drawn from *Pasión de las Pasiones*, translated and edited by [Khelren](https://khelren.itch.io/) with their permission. This English version is an unofficial personal translation of Khelren's French edition, not reviewed or endorsed by Khelren. You can buy Pasión de las Pasiones here: https://khelren.itch.io/pasion
 
-**Contenu** : Module fanmade. Les textes sont repris de *Pasión de las Pasiones*, traduit et édité par [Khelren](https://khelren.itch.io/) avec son accord. Vous pouvez acheter Pasión de las Pasiones ici : https://khelren.itch.io/pasion
-
-**Icones** trouvées sur freepik.
+**Icons** found on freepik.
 
 **Images** www.pexels.com
 

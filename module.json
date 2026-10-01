@@ -1,7 +1,9 @@
 {
   "id": "pasion-de-las-pasiones-vf",
-  "title": "Pasión de las Pasiones VF",
+  "title": "Pasión de las Pasiones EN",
   "version": "1.0.0",
+  "manifest": "https://raw.githubusercontent.com/ajlatour/PasiondelasPasiones-FoundyVTT/english-translation/module.json",
+  "download": "https://github.com/ajlatour/PasiondelasPasiones-FoundyVTT/archive/refs/heads/english-translation.zip",
   "compatibility": {
     "minimum": "12",
     "verified": "12"
@@ -21,7 +23,7 @@
   "packs": [
     {
       "name": "aides-de-jeu",
-      "label": "Aides de jeu",
+      "label": "Game Aids",
       "path": "packs/aides-de-jeu",
       "type": "JournalEntry",
       "ownership": {
@@ -33,7 +35,7 @@
     },
     {
       "name": "manoeuvres-de-base-et-secondaires",
-      "label": "Manœuvres de base et secondaires",
+      "label": "Basic and Peripheral Moves",
       "path": "packs/manoeuvres-de-base-et-secondaires",
       "type": "Item",
       "ownership": {
@@ -45,7 +47,7 @@
     },
     {
       "name": "livrets",
-      "label": "Livrets",
+      "label": "Playbooks",
       "path": "packs/livrets",
       "type": "Item",
       "ownership": {
@@ -57,7 +59,7 @@
     },
     {
       "name": "cadres-de-jeu",
-      "label": "Cadres de jeu",
+      "label": "Playsets",
       "path": "packs/cadres-de-jeu",
       "type": "Actor",
       "ownership": {
