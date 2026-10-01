@@ -21,11 +21,11 @@ npm run lang:new -- es      # any language code, e.g. es, de, pt-BR
 This creates `lang/es.json` and `translations/es/*.json`, registers the language in `module.json`,
 and fills every string in English. Then translate the values in those files:
 
-- `lang/es.json`: keep the keys, translate the values.
+- `lang/es.json`: keep the keys, translate the values. This includes the compendium titles
+  (`PASION.packs.*`) and the character-sheet labels (`PASION.cfg.*`).
 - `translations/es/*.json`: for each entry in `entries`, translate `name`, `system.*` and (journals)
   `pages.<id>.name` / `pages.<id>.text`. `_name` is the English name for reference; leave it alone.
-  Keep HTML tags and `@UUID[...]` links intact. `label` is the compendium name in the sidebar and
-  `folders` renames the folders inside it.
+  Keep HTML tags and `@UUID[...]` links intact. `folders` renames the folders inside the pack.
 - Delete a line to fall back to English for that string.
 
 Re-run `npm run lang:new -- es` whenever the English text grows. It only adds what is new and never

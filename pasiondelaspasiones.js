@@ -1,10 +1,21 @@
-import { localizeConfig } from "./scripts/config.js";
+import { MODULE_ID, localizeConfig } from "./scripts/config.js";
 import { sheetConfig } from "./scripts/sheet-config.js";
 import { registerTranslations } from "./scripts/translations.js";
 
 // Compendium content (names, moves, journals...) is stored in English and translated at
 // runtime by Babele using translations/<lang>/. See TRANSLATING.md.
 Hooks.once("babele.init", registerTranslations);
+
+// Compendium titles come from lang/<code>.json (PASION.packs.<pack>) so they follow the user's
+// language even without Babele. Falls back to the English label in module.json.
+Hooks.once("ready", () => {
+  for (const pack of game.packs) {
+    if (pack.metadata.packageName !== MODULE_ID) continue;
+    const key = `PASION.packs.${pack.metadata.name}`;
+    if (game.i18n.has(key, false)) pack.metadata.label = game.i18n.localize(key);
+  }
+  ui.sidebar.tabs.compendium?.render();
+});
 
 Hooks.once("ready", () => {
   game.settings.set("pbta", "hideRollMode", true);

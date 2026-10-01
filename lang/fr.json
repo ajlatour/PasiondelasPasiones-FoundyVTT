@@ -1,6 +1,11 @@
 {
   "PASION": {
     "SupportLinks": "Liens de soutien",
+    "packs": {
+      "game-aids": "Aides de jeu",
+      "playbooks-and-moves": "Livrets et manœuvres",
+      "playsets": "Cadres de jeu"
+    },
     "cfg": {
       "10": "Succès 10+ !",
       "exhausted": "Épuisé",
